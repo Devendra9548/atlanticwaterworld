@@ -1,0 +1,174 @@
+@import 'global.css'
+$blue: #0A5383
+$yellow: #F3E10B
+
+.bg-layer
+    margin: 0px !important
+    padding: 0px !important
+    margin-bottom: -34px !important
+    svg
+        margin: 0px
+        padding: 0px
+        background: transparent
+        margin-top: -182px
+        z-index: 3
+        position: relative
+.first-section
+    background: $yellow
+    .play-btn
+        position: absolute
+        top: 32%
+        left: 42%
+        z-index: 1
+    .heading
+        width: 275px
+        img
+            width: 96%
+            margin-top: 10px
+            margin-bottom: -10px
+        h2
+            font-weight: 800
+            span
+                font-size: 38px
+                display: block
+                line-height: 40px
+    p
+        margin-bottom: 0px
+
+.video-container
+    position: relative
+    width: 560px
+    height: 315px
+    background: url('/assets/imgs/youtube-thumb.png') center/cover
+    cursor: pointer
+    outline: 2px solid #000
+    outline-offset: 15px
+
+.play-button
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    width: 80px
+    height: 80px
+    background: url('play-icon.png') no-repeat center/contain
+
+.second-line-bg
+    .actual-line
+        background-image: url(/assets/imgs/second-line-bg.PNG)
+        background-repeat: no-repeat
+        background-size: cover
+        width: 100%
+        height: 182px
+
+.second-section
+    .card-cts
+        padding: 5px
+        width: 20%
+        .main-bg-1
+            background-image: url(/assets/imgs/2.png)
+        .main-bg-2
+            background-image: url(/assets/imgs/3.png)
+        .main-bg-3
+            background-image: url(/assets/imgs/4.png)
+        .main-bg-4
+            background-image: url(/assets/imgs/5.png)
+        .main-bg-5
+            background-image: url(/assets/imgs/6.png)
+        .main-bg-6
+            background-image: url(/assets/imgs/7.png)
+        .main-bg-7
+            background-image: url(/assets/imgs/8.png)
+        .main-bg-8
+            background-image: url(/assets/imgs/9.png)
+        .main-bg-9
+            background-image: url(/assets/imgs/10.png)
+        .main-bg-10
+            background-image: url(/assets/imgs/11.png)
+
+        .main
+            position: relative
+            background-repeat: no-repeat
+            background-size: cover
+            padding: 10px
+            padding-top: 145px
+            border-radius: 30px
+            overflow: hidden
+            height: 338px
+            border: 0px solid #0004
+            p
+                font-size: 14px
+                line-height: 18px
+                position: relative
+                z-index: 1
+                color: #000
+                margin-bottom: 5px
+            img
+                position: absolute
+                bottom: 0px
+                left: 0px
+                width: 100%
+                height: 248px
+                object-fit: cover
+            h3
+                position: relative
+                z-index: 1
+                color: #000
+                font-weight: 800
+
+.third-section
+    .container
+        background-image: url(/assets/imgs/air-bg.jpg)
+        background-repeat: no-repeat
+        background-size: cover
+        padding: 60px 0px
+        background-position: top
+        border-radius: 60px
+        h2
+            color: #fff
+        .testimonials
+            width: 90%
+            margin-left: auto
+            margin-right: auto
+    .slide-card
+        background: #f3e10b
+        padding: 20px
+        border-radius: 100px
+        display: flex
+        margin: 0px
+        p
+            color: #000
+            margin-bottom: 0px
+            text-align: left!important
+            line-height: 25px
+        .user-info
+            .name
+                font-size: 32px
+                color: #000
+                font-weight: 800
+        .rating
+            img
+                width: 30px
+                height: auto
+                margin-right: 6px
+
+    .slick-dots li button:before
+        position: absolute
+        top: 15px
+        font-size: 20px
+        text-align: center
+        color: #ffffff
+        opacity: 1
+    .slick-dots li.slick-active button:before
+        font-size: 25px
+
+.heighlight-section
+    .slick-dots li button:before
+        position: absolute
+        top: 15px
+        font-size: 15px
+        text-align: center
+        color: $blue
+        opacity: 1
+    .slick-dots li.slick-active button:before
+        font-size: 20px

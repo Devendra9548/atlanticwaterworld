@@ -1,0 +1,45 @@
+* {
+  font-family: "Montserrat", serif;
+}
+
+.btn-yellow {
+  font-size: 18px;
+  padding: 12px 15px;
+  color: #0A5383;
+  background: #F3E10B;
+  font-family: "Mulish", serif;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+a {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 600;
+  color: #F3E10B;
+}
+
+h2 {
+  font-size: 60px;
+  line-height: 77px;
+  font-weight: 700;
+  color: #0A5383;
+}
+
+p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: #0A5383;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  color: #0A5383;
+}/*# sourceMappingURL=global.css.map */

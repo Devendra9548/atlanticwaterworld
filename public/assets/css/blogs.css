@@ -1,0 +1,76 @@
+@import 'global.css';
+.maincard-section .slide {
+  margin: 10px;
+}
+.maincard-section .slide .inner-slide {
+  padding: 20px;
+  background: #F3E10B;
+  border-radius: 20px;
+}
+.maincard-section .slide .inner-slide:not(:last-child) {
+  margin-bottom: 20px;
+}
+.maincard-section .slide h3 {
+  color: #222222;
+  width: 55%;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 42px;
+}
+.maincard-section .slide p {
+  color: #484545;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 15px;
+  font-size: 20px;
+  text-align: center;
+  color: #000;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 25px;
+}
+
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.0745098039);
+}
+
+.main-content {
+  background: #0A5383;
+  padding: 50px;
+  margin: 50px;
+  border-radius: 30px;
+}
+.main-content p, .main-content li {
+  color: white;
+}
+.main-content strong {
+  color: #F3E10B;
+}
+.main-content h2 {
+  color: #F3E10B;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 20px;
+}
+.main-content h1 {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.main-content img {
+  border-radius: 20px;
+  margin: 20px 0px;
+}
+.main-content ul {
+  margin-left: 0px;
+  padding-left: 15px;
+}
+.main-content ul li {
+  font-weight: 500;
+}
+.main-content ul li:not(:last-child) {
+  margin-bottom: 15px;
+}/*# sourceMappingURL=blogs.css.map */

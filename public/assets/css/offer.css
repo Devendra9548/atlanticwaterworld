@@ -1,0 +1,116 @@
+@import 'global.css';
+.flip-card {
+  background-color: transparent;
+  width: 100%;
+  height: 362px;
+  perspective: 1000px;
+}
+.flip-card img {
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.isLine {
+  display: none;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateX(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.flip-card-frontd {
+  color: black;
+  border-radius: 39px;
+}
+
+.flip-card-back {
+  background-color: #F3E10B;
+  color: white;
+  transform: rotateX(180deg);
+  border-radius: 39px;
+  padding: 40px;
+}
+.flip-card-back h3, .flip-card-back ul, .flip-card-back li {
+  text-align: left;
+}
+.flip-card-back h3 {
+  color: #333333;
+  margin-bottom: 20px;
+}
+.flip-card-back li {
+  color: #0A5383;
+  margin-bottom: 5px;
+}
+
+.offer-section {
+  margin-top: -2px;
+  position: relative;
+  z-index: 2;
+  background: #fff;
+}
+
+.contact-section {
+  padding-top: 330px !important;
+  background-image: url(/assets/imgs/waterbg2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-section .first, .contact-section .second, .contact-section .third {
+  background: rgba(10, 83, 131, 0.3254901961);
+  border-radius: 30px;
+  padding: 30px;
+}
+.contact-section .first p, .contact-section .second p, .contact-section .third p {
+  margin-bottom: 0px;
+  font-weight: 500;
+}
+.contact-section .first .head, .contact-section .second .head {
+  color: #020348;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.contact-section .first p, .contact-section .first ul, .contact-section .first li, .contact-section .second p, .contact-section .second ul, .contact-section .second li {
+  color: #fff;
+  margin-bottom: 5px;
+}
+.contact-section .third {
+  height: 100%;
+}
+.contact-section .third h3, .contact-section .third p {
+  text-align: center;
+}
+.contact-section .third p {
+  color: #fff;
+  font-size: 20px;
+}
+.contact-section .third h3 {
+  font-size: 40px;
+  color: #020348;
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+  }
+}/*# sourceMappingURL=offer.css.map */
