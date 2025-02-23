@@ -43,7 +43,7 @@ About Us | Atlantic Water World
     </div>
 </section>
 <div class="full-lin">
-    <img src="/assets/imgs/about-line.PNG" alt="about-right1" width="100%">
+    <img src="/assets/imgs/about-line.png" alt="about-right1" width="100%">
 </div>
 
 <section class="p-5 third-section">
