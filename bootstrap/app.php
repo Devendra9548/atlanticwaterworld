@@ -11,7 +11,10 @@ return Application::configure(basePath: dirname(__DIR__))
         health: '/up',
     )
     ->withMiddleware(function (Middleware $middleware) {
-        //
+        // Adding 'safty' middleware to the middleware stack.
+        $middleware->group('safty', [
+            \App\Http\Middleware\WebSafty::class, // Add your custom safty middleware here
+        ]);
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //

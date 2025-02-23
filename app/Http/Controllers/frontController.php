@@ -21,5 +21,12 @@ class frontController extends Controller
     public function offer(){
         return view('offer');
     }
+    function websecure(){
+        return view("websecure");
+    }
+    function destroy(){
+        session()->flush();
+        return redirect('/safty');
+    }
     
 }
