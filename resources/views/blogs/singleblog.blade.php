@@ -11,7 +11,7 @@ Blogs
 <x-header />
 <section class="main-content p-5">
     <div class="container-fluid">
-        <h1>The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?</h1>
+        <h1>The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge? 45</h1>
         <p>Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the
             heat than a thrilling adventure at a water park? But are you ready to take it up a notch and conquer the
             Mahamudra of Masti (The ultimate challenge of fun)?</p>
