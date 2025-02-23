@@ -8,7 +8,7 @@ Blogs
 <link rel="stylesheet" href="/assets/css/blogs.css" />
 @endsection
 @section('body')
-<x-header />
+<x-header/>
 <section class="main-content p-5">
     <div class="container-fluid">
         <h1>The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?</h1>

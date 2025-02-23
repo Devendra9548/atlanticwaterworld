@@ -9,7 +9,7 @@ Blogs
 @endsection
 @section('body')
 <x-header />
-<x-herosection heading="Popular Topic" />
+<x-herosection hero="2" heroheading="Exploring Ideas, Inspiring Minds" heropara="Your Source for Insightful Blog Content" heading="Popular Topic" />
 
 <?php
     

@@ -9,7 +9,7 @@ About Us | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection heading="Atlantic Water World" />
+<x-herosection hero="1" heroheading="" heropara="" heading="Atlantic Water World" />
 <section class="second-section p-5">
     <div class="container-fluid">
         <div class="row">

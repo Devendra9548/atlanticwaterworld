@@ -8,7 +8,7 @@ Home | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection heading=""/>
+<x-herosection hero="1" heroheading="" heropara="" heading=""/>
 
 <section class="first-section p-5 position-relative">
 

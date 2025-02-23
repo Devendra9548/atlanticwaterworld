@@ -73,4 +73,17 @@ header {
 }
 .main-content ul li:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.hero-heading {
+  margin-top: -173px;
+  margin-bottom: 80px;
+}
+.hero-heading .head {
+  font-size: 45px !important;
+  line-height: 65px;
+}
+.hero-heading .para {
+  font-size: 30px !important;
+  margin-top: 15px;
 }/*# sourceMappingURL=blogs.css.map */

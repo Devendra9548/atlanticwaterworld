@@ -9,7 +9,7 @@ Offers | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection heading="Offers" />
+<x-herosection hero="1" heroheading="" heropara="" heading="Offers" />
 <section class="offer-section p-5 pb-0">
     <div class="container-fluid pt-3">
         <div class="row">

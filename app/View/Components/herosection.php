@@ -12,9 +12,16 @@ class herosection extends Component
      * Create a new component instance.
      */
     public $heading;
-    public function __construct($heading)
+    public $hero;
+    public $heroheading;
+    public $heropara;
+    
+    public function __construct($heading,$hero,$heroheading,$heropara)
     {
         $this->heading=$heading;
+        $this->hero=$hero;
+        $this->heroheading=$heroheading;
+        $this->heropara=$heropara;
     }
 
     /**
