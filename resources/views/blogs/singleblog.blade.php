@@ -80,6 +80,7 @@ Blogs
             get ready for a day of unforgettable fun, laughter, and thrilling challenges at your nearest water park.
             Just remember, the true victory lies in the memories you create and the laughter you share along the way!
         </p>
+        67
 
     </div>
 </section>
