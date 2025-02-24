@@ -79,6 +79,17 @@ About Us | Atlantic Water World
         </div>
     </div>
 </section>
+
+
+<section class="placement-offer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 first-slider">
+                 <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 <x-footer />
 
 @endsection
