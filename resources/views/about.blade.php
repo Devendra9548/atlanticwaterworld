@@ -15,7 +15,7 @@ About Us | Atlantic Water World
         <div class="row">
             <div class="col-12 col-md-6 pe-2 pe-md-5 bg-content">
                 <div class="layer">
-                    <h3 class="mb-3">2The best water park in Delhi NCR, Atlantic Water World is surround by a water canal
+                    <h3 class="mb-3">The best water park in Delhi NCR, Atlantic Water World is surround by a water canal
                         and
                         sits on the
                         Yamuna waterfront along the Kalindi Kunj barrage.</h3>
