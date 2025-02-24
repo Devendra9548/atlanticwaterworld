@@ -28,7 +28,7 @@ Blogs
       ],
       [
         [
-          'name' => 'Making the Most of Your Visit with Young <br>Children',
+          'name' => 'Making the Most of Your Visit with Young Children',
           'date' => '3 March 2025',
           'slug' => 'making-the-most-of-your-visit-with-young-children', 
         ],
