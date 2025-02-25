@@ -13,6 +13,8 @@ Route::get('about', [frontController::class, 'about'])->name('about');
 Route::get('blog', [frontController::class, 'blogs'])->name('blog');
 Route::get('blog/{slug}', [frontController::class, 'singleblog']);
 Route::get('offer', [frontController::class, 'offer'])->name('offer');
+Route::get('events', [frontController::class, 'events'])->name('events');
+Route::get('group-booking', [frontController::class, 'groupbooking'])->name('groupbooking');
 });
 
 

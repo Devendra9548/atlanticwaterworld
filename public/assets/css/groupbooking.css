@@ -1,0 +1,88 @@
+@import 'global.css';
+.second-section .container-fluid {
+  background: #0A5383;
+  padding: 50px;
+  border-radius: 30px;
+}
+.second-section .container-fluid h3, .second-section .container-fluid p, .second-section .container-fluid ul, .second-section .container-fluid li {
+  color: #fff;
+}
+.second-section .container-fluid ul {
+  padding-left: 15px;
+}
+.second-section .container-fluid ul li {
+  margin-bottom: 5px;
+}
+.second-section .container-fluid .btn-cts {
+  background: #F3E10B;
+  background-image: url(/assets/imgs/blue-line.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+
+.heading-section p {
+  margin-bottom: 0px;
+}
+.heading-section h2 {
+  color: #000;
+}
+
+.third-section .container {
+  background-image: url(/assets/imgs/form-bg.jpg);
+  background-position: center;
+  padding: 0px !important;
+  border-radius: 100px;
+  overflow: hidden;
+}
+.third-section .container .rows {
+  background: rgba(10, 83, 131, 0.48);
+  padding: 100px 100px;
+}
+.third-section .container p, .third-section .container h3, .third-section .container h2, .third-section .container label {
+  color: #fff !important;
+}
+.third-section .container p {
+  margin-bottom: 0px;
+}
+.third-section .container input, .third-section .container textarea {
+  width: 100%;
+  padding: 12px 24px !important;
+}
+.third-section .container .form-group {
+  margin-bottom: 15px;
+}
+.third-section .container .form-group input, .third-section .container .form-group textarea {
+  border: 1px solid #000;
+  border-radius: 55px;
+}
+.third-section .container .form-group textarea {
+  height: 100px;
+  padding-top: 14px !important;
+  border-radius: 25px !important;
+}
+.third-section .container .btn-cts {
+  background: #F3E10B;
+  background-image: url(/assets/imgs/blue-line.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  text-transform: uppercase;
+  padding: 12px 60px;
+  border-radius: 30px;
+}
+
+.isLine {
+  height: 700px;
+  display: flex;
+  align-items: end;
+  background-image: url("/assets/imgs/waterbg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+.isLine img {
+  padding-bottom: 0px !important;
+}/*# sourceMappingURL=groupbooking.css.map */

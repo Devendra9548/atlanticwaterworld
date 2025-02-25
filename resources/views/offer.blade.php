@@ -11,7 +11,7 @@ Offers | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Offers" />
 <section class="offer-section p-5 pb-0">
-    <div class="container-fluid pt-3">
+    <div class="container-fluid pt-3 px-5">
         <div class="row">
             <div class="col-12 col-md-6 mb-3">
                 <div class="flip-card">
