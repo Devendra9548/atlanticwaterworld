@@ -1,4 +1,9 @@
 @import 'global.css';
+.second-section {
+  margin-top: -15px !important;
+  background: #fff;
+  position: relative;
+}
 .second-section .container-fluid {
   background: #0A5383;
   padding: 50px;
@@ -26,6 +31,7 @@
 
 .heading-section p {
   margin-bottom: 0px;
+  color: #000;
 }
 .heading-section h2 {
   color: #000;
