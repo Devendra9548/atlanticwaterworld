@@ -212,7 +212,7 @@ Home | Atlantic Water World
             <div class="content col-12 col-md-6 d-flex align-items-center">
                 <div>
                     <h2 id="getheading">Storm Eye</h2>
-                    <p>Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
+                    <p id="getpara">Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
                         below.
                         Not for the faint hearted. Are you in the mood for a cyclone?</p>
                     <div class="btn-div mt-4">
@@ -353,6 +353,7 @@ $highlights = [
 
        document.querySelector("#getheading").innerHTML=heading;
        document.querySelector("#getheading1").innerHTML=heading;
+       document.querySelector("#getpara").innerHTML=paragraph;
        document.querySelector("#imgsrc").src=imgsrc;
        document.querySelector(".modelshow").style.display="block";
     
