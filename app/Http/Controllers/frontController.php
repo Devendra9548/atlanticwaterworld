@@ -27,6 +27,9 @@ class frontController extends Controller
     public function groupbooking(){
         return view('groupbooking');
     }
+    public function ticketbooking(){
+        return view('booking');
+    }
     function websecure(){
         return view("websecure");
     }

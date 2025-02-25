@@ -8,13 +8,11 @@ Home | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection hero="1" heroheading="" heropara="" heading=""/>
+<x-herosection hero="1" heroheading="" heropara="" heading="" />
 
 <section class="first-section p-5 position-relative">
 
-    </div>
-
-    <div class="container-fluid">
+    <div class="container-fluid pb-5">
         <div class="row">
             <div class="col-12 col-md-6">
                 <div class="heading">
@@ -27,7 +25,6 @@ Home | Atlantic Water World
         </div>
         <div class="row">
             <div class="col-12 col-md-6">
-
                 <p>The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
                     Yamuna waterfront along the Kalindi Kunj barrage.</p>
                 <p>Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
@@ -58,98 +55,177 @@ Home | Atlantic Water World
 
 </div>
 <section class="second-section p-2 pt-5 pb-5">
-    <div class="container-fluid">
-        <h2 class="text-center mb-3">Water world Attractions</h2>
+    <div class="container-fluid pt-5">
+        <h2 class="text-center mb-3 pb-3">Water World Attractions</h2>
         <div class="d-flex justify-content-center mb-2">
             <div class="card-cts">
-                <div class="main main-bg-1">
-                    <h3>Storm Eye</h3>
-                    <p>Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
-                        below. Not for the faint hearted. Are you in the mood for a cyclone?</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/2.png" alt="2.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Storm Eye</h3>
+                        <p>Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
+                            below. Not for the faint hearted. Are you in the mood for a cyclone?</p>
+                    </div>
                 </div>
             </div>
+
             <div class="card-cts">
-                <div class="main main-bg-2">
-                    <h3>Tornado</h3>
-                    <p>Experience thrills & chills in this funnel shaped slide as you zoom down 60 feet while sitting on
-                        a rubber tube, swinging side to side.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/3.png" alt="3.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Tornado</h3>
+                        <p>Experience thrills & chills in this funnel shaped slide as you zoom down 60 feet while
+                            sitting on
+                            a rubber tube, swinging side to side.</p>
+                    </div>
                 </div>
             </div>
+
             <div class="card-cts">
-                <div class="main main-bg-3">
-                    <h3>Gravity</h3>
-                    <p>Ready to see who's the fastest wave rider in your gang? Hop on the Racer with two of your friends
-                        and show them who's the master of speed as you race them down the slide.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/4.png" alt="4.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Gravity</h3>
+                        <p>Ready to see who's the fastest wave rider in your gang? Hop on the Racer with two of your
+                            friends
+                            and show them who's the master of speed as you race them down the slide.</p>
+                    </div>
                 </div>
             </div>
+
             <div class="card-cts">
-                <div class="main main-bg-4">
-                    <h3>Baby Cool</h3>
-                    <p>Why should adults have all the fun? Let your little tots enjoy their day in the sun (and the
-                        much-needed Vitamin D) as they splash about and have a gala time.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/5.png" alt="5.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Baby Cool</h3>
+                        <p>Why should adults have all the fun? Let your little tots enjoy their day in the sun (and the
+                            much-needed Vitamin D) as they splash about and have a gala time.</p>
+                    </div>
                 </div>
             </div>
+
             <div class="card-cts">
-                <div class="main main-bg-5">
-                    <h3>Family Pool</h3>
-                    <p>The family pool is the best attraction in the park for the entire family. Be it an adult or a
-                        child, swimmer or non-swimmer, you can gambol in the shallows and bond over smiles and squeals.
-                    </p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/6.png" alt="6.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Family Pool</h3>
+                        <p>The family pool is the best attraction in the park for the entire family. Be it an adult or a
+                            child, swimmer or non-swimmer, you can gambol in the shallows and bond over smiles and
+                            squeals.</p>
+                    </div>
                 </div>
             </div>
 
         </div>
+
         <div class="d-flex justify-content-center mb-3">
             <div class="card-cts">
-                <div class="main main-bg-6">
-                    <h3>Racer</h3>
-                    <p>Ready to see who's the fastest wave rider in your gang? Hop on the Racer with two of your friends
-                        and show them who's the master of speed as you race them down the slide.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
-                </div>
-            </div>
-            <div class="card-cts">
-                <div class="main main-bg-7">
-                    <h3>Loopy</h3>
-                    <p>This one's seriously twisted! Drop down and zoom through the various twists and turns of this
-                        very loopy ride.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
-                </div>
-            </div>
-            <div class="card-cts">
-                <div class="main main-bg-8">
-                    <h3>Water Wave</h3>
-                    <p>Catch the waves and recreate the ambience of the blue waters of the Indian Ocean. Paddle in the
-                        shallows or ride the wow inspiring waves with flotation devices. At the end, you come away
-                        feeling refreshed.</p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
-                </div>
-            </div>
-            <div class="card-cts">
-                <div class="main main-bg-9">
-                    <h3>Slow Flow</h3>
-                    <p>Tired from all the fun you're having? Need a break? Then how about you hop on a rubber tube and
-                        chill out while you go around our lazy river? You can be lazy without missing out on the fun.
-                    </p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
-                </div>
-            </div>
-            <div class="card-cts">
-                <div class="main main-bg-10">
-                    <h3>yippee land</h3>
-                    <p>Missing Goa and Phuket? Now you can enjoy the pleasures of your very own beach in the heart of
-                        Delhi. Yes, you read it correctly - Delhi. Soak in the sun or laze around in our beautiful
-                        artificial beach.
-                    </p>
-                    <img src="/assets/imgs/blue-bg.png" alt="">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/7.png" alt="7.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Racer</h3>
+                        <p>Ready to see who's the fastest wave rider in your gang? Hop on the Racer with two of your
+                            friends
+                            and show them who's the master of speed as you race them down the slide.</p>
+                    </div>
                 </div>
             </div>
 
+            <div class="card-cts">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/8.png" alt="8.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Loopy</h3>
+                        <p>This one's seriously twisted! Drop down and zoom through the various twists and turns of this
+                            very loopy ride.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-cts">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/9.png" alt="9.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Water Wave</h3>
+                        <p>Catch the waves and recreate the ambience of the blue waters of the Indian Ocean. Paddle in
+                            the
+                            shallows or ride the wow inspiring waves with flotation devices. At the end, you come away
+                            feeling refreshed.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="card-cts">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/10.png" alt="10.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Slow Flow</h3>
+                        <p>Tired from all the fun you're having? Need a break? Then how about you hop on a rubber tube
+                            and
+                            chill out while you go around our lazy river? You can be lazy without missing out on the
+                            fun.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card-cts">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/11.png" alt="11.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Yippee Land</h3>
+                        <p>Missing Goa and Phuket? Now you can enjoy the pleasures of your very own beach in the heart
+                            of
+                            Delhi. Yes, you read it correctly - Delhi. Soak in the sun or laze around in our beautiful
+                            artificial beach.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="container modelshow">
+        <div id="closeIcon" class="close">
+            <a href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
+        </div>
+        <div class="row">
+            <div class="content col-12 col-md-6 d-flex align-items-center">
+                <div>
+                    <h2 id="getheading">Storm Eye</h2>
+                    <p>Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
+                        below.
+                        Not for the faint hearted. Are you in the mood for a cyclone?</p>
+                    <div class="btn-div mt-4">
+                        <a href="#" class="btn btn-yellow btn-cts">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 px-0">
+                <div class="img-box">
+                <img id="imgsrc" src="/assets/imgs/2.png" alt="2.png" width="100%">
+                <h3 class="text-center" id="getheading1">Storm Eye</h3>
+                </div>
+            </div>
         </div>
     </div>
 </section>
@@ -266,6 +342,28 @@ $highlights = [
 
 
 <x-footer />
+
+<script>
+    function modelshow(val){
+       var heading = val.querySelector("h3").innerHTML;
+       var para = val.querySelector("p").innerHTML;
+       var imgsrc = val.querySelector("img").src;
+       
+       let paragraph = para.replace(/\s+/g, ' ');
+
+       document.querySelector("#getheading").innerHTML=heading;
+       document.querySelector("#getheading1").innerHTML=heading;
+       document.querySelector("#imgsrc").src=imgsrc;
+       document.querySelector(".modelshow").style.display="block";
+    
+    }
+ 
+    document.querySelector("#closeIcon").addEventListener('click',function(event){
+        event.preventDefault();
+        document.querySelector(".modelshow").style.display="none";
+    })
+    
+</script>
 
 <script>
 $(document).ready(function() {

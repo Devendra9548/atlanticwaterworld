@@ -65,8 +65,6 @@ $yellow: #F3E10B
     .card-cts
         padding: 5px
         width: 20%
-        .main-bg-1
-            background-image: url(/assets/imgs/2.png)
         .main-bg-2
             background-image: url(/assets/imgs/3.png)
         .main-bg-3
@@ -90,26 +88,44 @@ $yellow: #F3E10B
             position: relative
             background-repeat: no-repeat
             background-size: cover
-            padding: 10px
-            padding-top: 145px
-            border-radius: 30px
+            padding: 0px
+            border-radius: 20px
             overflow: hidden
-            height: 338px
-            border: 0px solid #0004
+            border: 1px solid #0004
+            cursor: pointer
+            &:hover
+                h3,p
+                    color: #000
+                    text-decoration: underline
+            .img-card
+                padding: 10px
+                padding-bottom: 0px
+                background: #0BE8F9
+                img
+                    border-top-left-radius: 20px
+                    border-top-right-radius: 20px
+                    height: 200px
+                    object-fit: cover
+                    object-position: center
+            .content-card
+                padding: 10px
+                background-image: url(/assets/imgs/bg-cards-10.jpg)
+                background-repeat: no-repeat
+                background-size: cover
+                background-position: center
+                height: 140px
             p
-                font-size: 14px
-                line-height: 18px
+                font-size: 13px
+                line-height: 16px
                 position: relative
                 z-index: 1
                 color: #000
                 margin-bottom: 5px
-            img
-                position: absolute
-                bottom: 0px
-                left: 0px
-                width: 100%
-                height: 248px
-                object-fit: cover
+                display: -webkit-box
+                -webkit-line-clamp: 4
+                -webkit-box-orient: vertical
+                overflow: hidden
+
             h3
                 position: relative
                 z-index: 1
@@ -172,3 +188,79 @@ $yellow: #F3E10B
         opacity: 1
     .slick-dots li.slick-active button:before
         font-size: 20px
+
+.second-section
+    position: relative
+    .close
+        position: absolute
+        top: 25px
+        right: 25px
+        i
+            font-size: 40px
+            color: #fff
+    .modelshow
+        display: none
+        background: rgba(0, 0, 0, 0.6)
+        position: fixed
+        z-index: 100
+        width: 80%
+        max-width: 100%
+        left: 10%
+        padding: 75px
+        border-radius: 40px
+        margin-left: auto
+        margin-right: auto
+        top: 0%
+        .img-box
+            padding: 15px
+            background: $blue
+            border-radius: 48px
+            h3
+                color: #fff
+                margin-top: 18px
+                margin-bottom: 25px
+                font-size: 28px
+                font-weight: 500
+        h2
+            font-size: 50px
+        p
+            margin-bottom: 0px !important
+            line-height: 24px
+        .content
+            h2,p
+                color: #000
+        .btn-div
+            a
+                background: #F3E10B
+                background-image: url(/assets/imgs/blue-underline.png)
+                background-repeat: no-repeat
+                background-position: bottom
+                background-size: contain
+                text-transform: uppercase
+                padding: 12px 30px
+                border-radius: 30px
+    .row
+        background: rgba(11, 232, 249, 0.8980392157)
+        padding: 50px
+        border-radius: 40px
+        img
+            border-radius: 40px
+            height: 343px
+            object-fit: cover
+            object-position: center
+
+@media only screen and (max-width:1300px)
+    .second-section
+        .row
+            background: rgba(11, 232, 249, 0.8980392157)
+            padding: 35px
+            border-radius: 40px
+            img
+                border-radius: 40px
+                height: 290px
+                object-fit: cover
+                object-position: center
+    .second-section .card-cts .main .img-card img
+        border-top-left-radius: 20px
+        border-top-right-radius: 20px
+        height: 170px

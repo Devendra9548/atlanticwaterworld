@@ -15,6 +15,7 @@ Route::get('blog/{slug}', [frontController::class, 'singleblog']);
 Route::get('offer', [frontController::class, 'offer'])->name('offer');
 Route::get('events', [frontController::class, 'events'])->name('events');
 Route::get('group-booking', [frontController::class, 'groupbooking'])->name('groupbooking');
+Route::get('ticket-booking', [frontController::class, 'ticketbooking'])->name('ticketbooking');
 });
 
 

@@ -74,9 +74,6 @@
   padding: 5px;
   width: 20%;
 }
-.second-section .card-cts .main-bg-1 {
-  background-image: url(/assets/imgs/2.png);
-}
 .second-section .card-cts .main-bg-2 {
   background-image: url(/assets/imgs/3.png);
 }
@@ -108,29 +105,49 @@
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 10px;
-  padding-top: 145px;
-  border-radius: 30px;
+  padding: 0px;
+  border-radius: 20px;
   overflow: hidden;
-  height: 338px;
-  border: 0px solid rgba(0, 0, 0, 0.2666666667);
+  border: 1px solid rgba(0, 0, 0, 0.2666666667);
+  cursor: pointer;
+}
+.second-section .card-cts .main:hover h3, .second-section .card-cts .main:hover p {
+  color: #000;
+  text-decoration: underline;
+}
+.second-section .card-cts .main .img-card {
+  padding: 10px;
+  padding-bottom: 0px;
+  background: #0BE8F9;
+}
+.second-section .card-cts .main .img-card img {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.second-section .card-cts .main .content-card {
+  padding: 10px;
+  background-image: url(/assets/imgs/bg-cards-10.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 140px;
 }
 .second-section .card-cts .main p {
-  font-size: 14px;
-  line-height: 18px;
+  font-size: 13px;
+  line-height: 16px;
   position: relative;
   z-index: 1;
   color: #000;
   margin-bottom: 5px;
-}
-.second-section .card-cts .main img {
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
-  width: 100%;
-  height: 248px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .second-section .card-cts .main h3 {
   position: relative;
@@ -200,4 +217,97 @@
 }
 .heighlight-section .slick-dots li.slick-active button:before {
   font-size: 20px;
+}
+
+.second-section {
+  position: relative;
+}
+.second-section .close {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+}
+.second-section .close i {
+  font-size: 40px;
+  color: #fff;
+}
+.second-section .modelshow {
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  position: fixed;
+  z-index: 100;
+  width: 80%;
+  max-width: 100%;
+  left: 10%;
+  padding: 75px;
+  border-radius: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0%;
+}
+.second-section .modelshow .img-box {
+  padding: 15px;
+  background: #0A5383;
+  border-radius: 48px;
+}
+.second-section .modelshow .img-box h3 {
+  color: #fff;
+  margin-top: 18px;
+  margin-bottom: 25px;
+  font-size: 28px;
+  font-weight: 500;
+}
+.second-section .modelshow h2 {
+  font-size: 50px;
+}
+.second-section .modelshow p {
+  margin-bottom: 0px !important;
+  line-height: 24px;
+}
+.second-section .modelshow .content h2, .second-section .modelshow .content p {
+  color: #000;
+}
+.second-section .modelshow .btn-div a {
+  background: #F3E10B;
+  background-image: url(/assets/imgs/blue-underline.png);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  text-transform: uppercase;
+  padding: 12px 30px;
+  border-radius: 30px;
+}
+.second-section .row {
+  background: rgba(11, 232, 249, 0.8980392157);
+  padding: 50px;
+  border-radius: 40px;
+}
+.second-section .row img {
+  border-radius: 40px;
+  height: 343px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  .second-section .row {
+    background: rgba(11, 232, 249, 0.8980392157);
+    padding: 35px;
+    border-radius: 40px;
+  }
+  .second-section .row img {
+    border-radius: 40px;
+    height: 290px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .second-section .card-cts .main .img-card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 170px;
+  }
 }/*# sourceMappingURL=home.css.map */
