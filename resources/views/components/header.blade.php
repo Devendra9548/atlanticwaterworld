@@ -2,7 +2,7 @@
     <div class="container-fluid ps-5 pe-0">
         <div class="row m-0 p-0">
             <div class="col-3 d-flex align-items-center">
-                <a href="#">
+                <a href="{{route('home')}}">
                     <img src="/assets/imgs/logo-blue.png" alt="logo-blue" width="160px">
                 </a>
             </div>
