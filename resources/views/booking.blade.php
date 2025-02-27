@@ -1,6 +1,6 @@
 @extends('includes.main')
 @section('title')
-Events | Atlantic Water World
+Ticket Booking | Atlantic Water World
 @endsection
 @section('header')
 <link rel="stylesheet" href="/assets/css/style.css" />

@@ -30,6 +30,15 @@ class frontController extends Controller
     public function ticketbooking(){
         return view('booking');
     }
+    function contactus(){
+        return view('contact');
+    }
+    function termsconditions(){
+        return view('termsconditions');
+    }
+    function rulesregulations(){
+        return view('rulesregulations');
+    }
     function websecure(){
         return view("websecure");
     }
@@ -37,5 +46,6 @@ class frontController extends Controller
         session()->flush();
         return redirect('/safty');
     }
+
     
 }

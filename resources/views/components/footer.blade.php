@@ -30,8 +30,8 @@
                 <h3 class="ct-90">Help Center</h3>
                 <ul>
                     <li><a href="#">FAQs</a></li> 
-                    <li><a href="#">Ruels & Regulations</a></li> 
-                    <li><a href="#">Terms & Conditions</a></li> 
+                    <li><a href="{{route('rulesregulations')}}">Ruels & Regulations</a></li> 
+                    <li><a href="{{route('termsconditions')}}">Terms & Conditions</a></li> 
                     
 
                 </ul>

@@ -9,7 +9,7 @@ Events | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection hero="1" heroheading="" heropara="" heading="Highlights & Eents" />
+<x-herosection hero="1" heroheading="" heropara="" heading="Highlights & Events" />
 
 <?php
 $events = [

@@ -54,7 +54,7 @@ Home | Atlantic Water World
     <div class="actual-line"></div>
 
 </div>
-<section class="second-section p-2 pt-5 pb-5">
+<section class="second-section p-2 pt-5 pb-5 water-world-section">
     <div class="container-fluid pt-5">
         <h2 class="text-center mb-3 pb-3">Water World Attractions</h2>
         <div class="d-flex justify-content-center mb-2">
