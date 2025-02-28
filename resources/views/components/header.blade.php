@@ -30,10 +30,10 @@
                             <li><a href="{{route('about')}}">About</a></li>
                             <li><a href="{{route('offer')}}">Offers</a></li>
                             <li><a href="{{route('events')}}">Events</a></li>
-                            <li><a href="{{route('groupbooking')}}">Booking</a></li>
+                            <li><a href="{{route('groupbooking')}}">Group Booking</a></li>
                             <li><a href="{{route('contactus')}}">Contact Us</a></li>
-                            <li><a href="{{route('blog')}}">Blog</a></li>
-                            <li class="last-nav"><a class="btn-yellow" href="{{route('ticketbooking')}}">Booking Online</a></li>
+                            <li><a href="{{route('blog')}}">Blogs</a></li>
+                            <li class="last-nav"><a class="btn-yellow" href="{{route('ticketbooking')}}">Book Online</a></li>
 
                         </ul>
                     </nav>
