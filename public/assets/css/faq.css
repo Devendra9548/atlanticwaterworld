@@ -1,0 +1,56 @@
+@import 'global.css';
+.first-section h2 span {
+  color: #0A5383;
+  display: block;
+  font-size: 36px;
+}
+
+.faq-section .faq-container {
+  padding: 20px;
+}
+.faq-section .faq-container .faq-item {
+  padding: 10px 0;
+}
+.faq-section .faq-container .faq-question {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 15px 20px;
+  font-weight: 500;
+  background: rgba(10, 83, 131, 0.0784313725);
+  color: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  font-size: 16px;
+}
+.faq-section .faq-container .faq-question span {
+  background: #0A5383;
+  color: #fff;
+  padding: 4px 10px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+}
+.faq-section .faq-container .faq-answer {
+  display: none;
+  padding: 15px 20px;
+  background: #F2EDE9;
+  margin-top: 0px;
+  border-radius: 5px;
+}
+
+.isLine {
+  height: 700px;
+  display: flex;
+  align-items: end;
+  background-image: url("/assets/imgs/waterbg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+.isLine img {
+  padding-bottom: 0px !important;
+}/*# sourceMappingURL=faq.css.map */

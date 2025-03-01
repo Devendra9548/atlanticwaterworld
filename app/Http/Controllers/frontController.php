@@ -46,6 +46,13 @@ class frontController extends Controller
         session()->flush();
         return redirect('/safty');
     }
-
-    
+    function faq(){
+        return view('faq');
+    }
+    function newspr(){
+        return view('newspr');
+    }
+    function attractions(){
+        return view('attractions');
+    }
 }

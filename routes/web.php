@@ -19,6 +19,10 @@ Route::get('group-booking', [frontController::class, 'groupbooking'])->name('gro
 Route::get('ticket-booking', [frontController::class, 'ticketbooking'])->name('ticketbooking');
 Route::get('terms-and-conditions', [frontController::class, 'termsconditions'])->name('termsconditions');
 Route::get('rules-and-regulations', [frontController::class, 'rulesregulations'])->name('rulesregulations');
+Route::get('faq', [frontController::class, 'faq'])->name('faq');
+Route::get('news-pr', [frontController::class, 'newspr'])->name('newspr');
+Route::get('attractions', [frontController::class, 'attractions'])->name('attractions');
+
 });
 
 

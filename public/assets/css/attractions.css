@@ -1,0 +1,43 @@
+@import 'global.css';
+.attractions-section {
+  position: relative;
+  z-index: 3;
+  margin-top: -2px !important;
+  background: #fff;
+}
+.attractions-section .cards {
+  position: relative;
+  border-radius: 30px;
+  border: 1px solid #919191;
+  overflow: hidden;
+}
+.attractions-section .cards .info {
+  background-image: url("/assets/imgs/blue-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
+  padding: 30px;
+  height: 239px;
+  padding-top: 80px;
+}
+.attractions-section .cards .info p, .attractions-section .cards .info h3 {
+  color: #000;
+}
+.attractions-section .cards .info p {
+  margin-bottom: 0px;
+}
+
+.isLine {
+  height: 700px;
+  display: flex;
+  align-items: end;
+  background-image: url("/assets/imgs/waterbg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+.isLine img {
+  padding-bottom: 0px !important;
+}/*# sourceMappingURL=attractions.css.map */
