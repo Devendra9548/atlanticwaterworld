@@ -11,7 +11,7 @@ News & Pr | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection hero="3" heroheading="" heropara=""
+<x-herosection hero="1" heroheading="" heropara=""
     heading="News & Pr" />
 
 <section class="news-section p-5">

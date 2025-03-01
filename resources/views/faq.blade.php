@@ -11,7 +11,7 @@ FAQ | Atlantic Water World
 @endsection
 @section('body')
 <x-header />
-<x-herosection hero="3" heroheading="" heropara=""
+<x-herosection hero="1" heroheading="" heropara=""
     heading="Atlantic Water World <span>Frequently Asked Questions</span>" />
 
 <section class="faq-section p-5">

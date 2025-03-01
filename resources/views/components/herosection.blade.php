@@ -19,13 +19,7 @@
                         <p class="text-center para">{{$heropara}}</p>
                     </div>
                     @endif
-                    @if($hero==1)
-                <div class="col-12 col-md-12">
-                    <p class="first">Opening Hours: <strong>10:00 AM</strong> to <strong>6:00 PM</strong></p>
-                    <p class="second"><a href="#"><b>info@atlanticaterworld.com</a> | <a href="#">+91 954 000
-                            4091</a></b></p>
-                </div>
-                @endif
+                  
             </div>
 
 
