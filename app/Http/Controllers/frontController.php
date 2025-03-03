@@ -64,4 +64,11 @@ class frontController extends Controller
     function dmrc(){
         return view('dmrc');
     }
+    function taxi(){
+        return view('taxi');
+    }
+    function testimonials(){
+        return view('testimonials');
+    }
+    
 }

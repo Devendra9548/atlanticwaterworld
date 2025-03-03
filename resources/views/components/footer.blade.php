@@ -17,7 +17,7 @@
                     <li><a href="{{route('newspr')}}">News & PR</a></li> 
                     <li><a href="{{route('attractions')}}">Rides &  Attractions</a></li> 
                     <li><a href="{{route('gallery')}}">Gallery</a></li> 
-                    <li><a href="#">Testimonials</a></li> 
+                    <li><a href="{{route('testimonials')}}">Testimonials</a></li> 
                 </ul>
             </div>
             <div class="col-12 col-md-3">
@@ -41,7 +41,7 @@
                 <ul>
                     <li><a href="{{route('dmrc')}}">DMRC</a></li> 
                     <li><a href="{{route('bus')}}">Public Bus</a></li> 
-                    <li><a href="#">Taxi</a></li> 
+                    <li><a href="{{route('taxi')}}">Taxi</a></li> 
                     <li><a href="#">Navigation</a></li> 
                 </ul>
             </div>
@@ -65,3 +65,99 @@
         </div>
     </div>
 </footer>
+
+<div class="sticky-socialmedia">
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="tel:+919540004091">
+                    <img src="/assets/imgs/wifi.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Call Us at</p>
+                        <p>9540004091</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://www.instagram.com/atlanticwaterworld/" target="_blank">
+                    <img src="/assets/imgs/instagram-side.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Follow Us on</p>
+                        <p>Instagram</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/AtlanticWaterWorldPark/" target="_blank">
+                    <img src="/assets/imgs/fb-side.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Like Us on</p>
+                        <p>Facebook</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://twitter.com/atlanticworld1" target="_blank">
+                    <img src="/assets/imgs/twitter.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Like Us on</p>
+                        <p>Twitter</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://wa.me/9540004091?text=WhatsApp" target="_blank">
+                    <img src="/assets/imgs/wp-side.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Connect via</p>
+                        <p>WhatsApp</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://www.youtube.com/channel/UCIyCWpivG-P5YJ7d6qL_IxA" target="_blank">
+                    <img src="/assets/imgs/yt-side.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Subscribe on</p>
+                        <p>YouYube</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="mainbar">
+        <ul>
+            <li>
+                <a href="https://www.tripadvisor.in/Attraction_Review-g304551-d12852722-Reviews-Atlantic_water_world-New_Delhi_National_Capital_Territory_of_Delhi.html" target="_blank">
+                    <img src="/assets/imgs/tripadvisor.png" alt="" width="auto" class="pe-1">
+                    <div class="content">
+                        <p>Call Us at</p>
+                        <p>9540004091</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    
+</div>

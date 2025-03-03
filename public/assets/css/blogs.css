@@ -88,6 +88,69 @@ header {
   margin-top: 15px;
 }
 
+.recent-blog h3, .recent-blog p {
+  color: #000;
+}
+.recent-blog .blog {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  overflow: hidden;
+}
+.recent-blog .blog .content {
+  padding: 30px;
+}
+.recent-blog .blog .content h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.recent-blog .blog .content p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.recent-blog .blog a {
+  text-decoration: none;
+}
+.recent-blog .blog:hover h3, .recent-blog .blog:hover p {
+  color: #0A5383;
+  text-decoration: underline;
+}
+.recent-blog .img-card {
+  height: 350px;
+  overflow: hidden;
+}
+.recent-blog .img-card img {
+  height: 350px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  transition: all 0.4s ease;
+}
+.recent-blog .img-card:hover {
+  background: #fff;
+}
+.recent-blog .img-card:hover img {
+  transform: scale(1.05) rotate(2deg);
+  opacity: 0.8;
+  transition: all 0.4s ease;
+}
+
+.isLine {
+  height: 700px;
+  display: flex;
+  align-items: end;
+  background-image: url("/assets/imgs/waterbg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+.isLine img {
+  padding-bottom: 0px !important;
+}
+
 @media only screen and (max-width: 1300px) {
   .maincard-section .slide h3 {
     color: #222222;
