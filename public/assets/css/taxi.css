@@ -1,5 +1,5 @@
 @import 'global.css';
-.subheading {
+.taxi-section .subheading {
   font-size: 32px;
   line-height: 40px;
   color: rgba(51, 51, 51, 0.9490196078);
@@ -11,11 +11,11 @@
   position: relative;
 }
 
-ul {
+.taxi-section ul {
   margin-left: 22px;
   padding: 0px;
 }
-ul li {
+.taxi-section ul li {
   font-size: 16px;
   margin-bottom: 5px;
 }
