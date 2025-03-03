@@ -55,4 +55,13 @@ class frontController extends Controller
     function attractions(){
         return view('attractions');
     }
+    function gallery(){
+        return view('gallery');
+    }
+    function bus(){
+        return view('bus');
+    }
+    function dmrc(){
+        return view('dmrc');
+    }
 }

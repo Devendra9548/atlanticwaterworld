@@ -1,6 +1,9 @@
 @import 'global.css';
 header {
   background: #0A5383;
+  position: sticky;
+  top: 0px;
+  z-index: 100;
 }
 header nav ul {
   padding: 0px;
@@ -15,6 +18,9 @@ header nav ul li a {
   color: #0A5383;
   text-decoration: none;
   font-weight: 600;
+}
+header .top-bar {
+  display: flex;
 }
 header .top-bar p {
   color: #fff;
@@ -160,6 +166,74 @@ footer .foot-4 .social-media i {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
+}
+
+.sticky-socialmedia {
+  position: fixed;
+  right: 0px;
+  top: 30%;
+  z-index: 99;
+}
+
+.mainbar {
+  width: auto;
+  height: 50px;
+  transition: all 0.25s ease-in-out;
+}
+.mainbar ul {
+  margin: 0px;
+  padding: 0px;
+  transition: all 0.25s ease-in-out;
+  position: relative;
+}
+.mainbar li {
+  list-style: none;
+  transition: all 0.25s ease-in-out;
+  position: absolute;
+  right: 0px;
+  background: #0A5383;
+  padding: 10px;
+}
+.mainbar li img {
+  width: 30px !important;
+  -o-object-fit: contain;
+     object-fit: contain;
+  text-align: center;
+}
+.mainbar li .content {
+  width: 12px;
+  margin-right: -14px;
+  padding-right: 0px;
+  transition: all 0.25s ease-in-out;
+  padding-left: 10px;
+}
+.mainbar li .content p, .mainbar li .content span, .mainbar li .content div {
+  color: #fff;
+  margin: 0px;
+  font-size: 12px;
+  line-height: 16px;
+  transition: all 0.25s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.mainbar li a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.mainbar li:hover .content {
+  width: auto;
+  margin-right: 0px;
+  transition: all 0.25s ease-in-out;
+  padding-right: 50px;
+}
+
+.fixheader .top-bar {
+  display: none;
+}
+.fixheader .main-logo {
+  width: 29%;
 }
 
 @media only screen and (max-width: 1300px) {

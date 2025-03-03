@@ -2,9 +2,11 @@
 $blue: #0A5383
 $yellow: #F3E10B
 
-
 header
     background: #0A5383
+    position: sticky
+    top: 0px
+    z-index: 100
     nav
         ul
             padding: 0px
@@ -18,6 +20,7 @@ header
                     text-decoration: none
                     font-weight: 600
     .top-bar
+        display: flex
         p
             color: #fff
             margin-bottom: 0px
@@ -139,6 +142,64 @@ footer
                     background-repeat: no-repeat
                     background-position: bottom
                     background-size: contain
+
+.sticky-socialmedia
+    position: fixed
+    right: 0px
+    top: 30%
+    z-index: 99
+.mainbar
+    width: auto
+    height: 50px
+    transition: all 0.25s ease-in-out
+
+    ul
+        margin: 0px
+        padding: 0px
+        transition: all 0.25s ease-in-out
+        position: relative
+    li
+        list-style: none
+        transition: all 0.25s ease-in-out
+        position: absolute
+        right: 0px
+        background: $blue
+        padding: 10px
+        img
+            width: 30px!important
+            object-fit: contain
+            text-align: center
+        .content
+            width: 12px
+            margin-right: -14px
+            padding-right: 0px
+            transition: all 0.25s ease-in-out
+            padding-left: 10px
+            p,span,div
+                color: #fff
+                margin: 0px
+                font-size: 12px
+                line-height: 16px
+                transition: all 0.25s ease-in-out
+                white-space: nowrap
+                overflow: hidden
+                text-overflow: ellipsis
+        a
+            display: flex
+            align-items: center
+            text-decoration: none
+
+    li:hover .content
+        width: auto
+        margin-right: 0px
+        transition: all 0.25s ease-in-out
+        padding-right: 50px
+
+.fixheader
+    .top-bar
+        display: none
+    .main-logo
+        width: 29%
 
 @media only screen and (max-width:1300px)
     header

@@ -37,6 +37,17 @@
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="/assets/slick/slick/slick.min.js"></script>
+    <script>
+        window.addEventListener("scroll", function () {
+    let element = document.querySelector("header"); // Change to your target element
+    if (window.scrollY > 0) {
+        element.classList.add("fixheader");
+    } else {
+        element.classList.remove("fixheader");
+    }
+});
+
+    </script>
 </body>
 
 </html>

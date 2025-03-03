@@ -1,0 +1,76 @@
+@import 'global.css';
+.gallery-section {
+  position: relative;
+  z-index: 3;
+  margin-top: -2px !important;
+  background: rgba(11, 232, 249, 0.8980392157);
+}
+.gallery-section .rides {
+  position: relative;
+  z-index: 19;
+  margin-bottom: -50px;
+}
+.gallery-section img {
+  height: 402px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  z-index: 19;
+}
+
+.last-svg {
+  background: rgba(11, 232, 249, 0.8980392157);
+  z-index: 12;
+  position: absolute;
+  left: 0px;
+  bottom: -2px;
+}
+
+.slick-dots li button:before {
+  position: absolute;
+  top: 15px;
+  font-size: 16px;
+  text-align: center;
+  color: #0A5383;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  font-size: 19px;
+  color: #F3E10B;
+}
+
+.more-rides-section .cards {
+  position: relative;
+  border-radius: 30px;
+  border: 1px solid #919191;
+  overflow: hidden;
+  margin: 10px;
+}
+.more-rides-section .cards img {
+  height: 400px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.more-rides-section .cards .info {
+  background-image: url("/assets/imgs/blue-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
+  padding: 30px;
+  height: 249px;
+  padding-top: 80px;
+}
+.more-rides-section .cards .info p, .more-rides-section .cards .info h3 {
+  color: #000;
+}
+.more-rides-section .cards .info p {
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 18px;
+}/*# sourceMappingURL=gallery.css.map */

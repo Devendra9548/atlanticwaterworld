@@ -22,7 +22,9 @@ Route::get('rules-and-regulations', [frontController::class, 'rulesregulations']
 Route::get('faq', [frontController::class, 'faq'])->name('faq');
 Route::get('news-pr', [frontController::class, 'newspr'])->name('newspr');
 Route::get('attractions', [frontController::class, 'attractions'])->name('attractions');
-
+Route::get('attractions-gallery', [frontController::class, 'gallery'])->name('gallery');
+Route::get('bus', [frontController::class, 'bus'])->name('bus');
+Route::get('dmrc', [frontController::class, 'dmrc'])->name('dmrc');
 });
 
 

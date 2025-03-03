@@ -3,12 +3,12 @@
         <div class="row m-0 p-0">
             <div class="col-3 d-flex align-items-center">
                 <a href="{{route('home')}}">
-                    <img src="/assets/imgs/logo-blue.png" alt="logo-blue" width="160px">
+                    <img src="/assets/imgs/logo-blue.png" alt="logo-blue" width="160px" class="main-logo">
                 </a>
             </div>
 
             <div class="col-9 p-0 m-0">
-                <div class="top-bar d-flex pt-2 pb-2">
+                <div class="top-bar pt-2 pb-2">
                     <div class="cols first">
                         <p>Opening Hours</p>
                     </div>

@@ -1,0 +1,16 @@
+@import 'global.css';
+.bus-section thead th, .bus-section thead tr {
+  background-color: #0A5383;
+  color: #fff;
+  font-weight: 500;
+}
+.bus-section th, .bus-section td {
+  padding: 15px !important;
+  font-size: 16px;
+}
+.bus-section tbody tr:nth-child(odd) {
+  border-left: 4px solid rgba(0, 0, 0, 0.5333333333) !important;
+}
+.bus-section tr th:nth-child(1) {
+  padding-left: 30px !important;
+}/*# sourceMappingURL=bus.css.map */

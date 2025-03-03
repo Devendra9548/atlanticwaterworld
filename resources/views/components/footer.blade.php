@@ -7,16 +7,16 @@
             <div class="col-12 col-md-3">
                 <h3>About Us</h3>
                 <ul>
-                    <li><a href="#">About Atlantic Water World</a></li>
+                    <li><a href="{{route('about')}}">About Atlantic Water World</a></li>
                     <li><a href="{{route('newspr')}}">News & PR</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="{{route('contactus')}}">Contact Us</a></li>
                 </ul>
                 <h3 class="ct-90">Water Park</h3>
                 <ul>
                     <li><a href="#">Other</a></li> 
                     <li><a href="{{route('newspr')}}">News & PR</a></li> 
                     <li><a href="{{route('attractions')}}">Rides &  Attractions</a></li> 
-                    <li><a href="#">Gallery</a></li> 
+                    <li><a href="{{route('gallery')}}">Gallery</a></li> 
                     <li><a href="#">Testimonials</a></li> 
                 </ul>
             </div>
@@ -39,8 +39,8 @@
             <div class="col-12 col-md-3">
                 <h3>Travel Information</h3>
                 <ul>
-                    <li><a href="#">DMRC</a></li> 
-                    <li><a href="#">Public Bus</a></li> 
+                    <li><a href="{{route('dmrc')}}">DMRC</a></li> 
+                    <li><a href="{{route('bus')}}">Public Bus</a></li> 
                     <li><a href="#">Taxi</a></li> 
                     <li><a href="#">Navigation</a></li> 
                 </ul>

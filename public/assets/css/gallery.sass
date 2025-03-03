@@ -1,0 +1,65 @@
+@import 'global.css'
+$blue: #0A5383
+$yellow: #F3E10B
+
+.gallery-section
+    position: relative
+    z-index: 3
+    margin-top: -2px !important
+    background: #0BE8F9E5
+    .rides
+        position: relative
+        z-index: 19
+        margin-bottom: -50px
+    img
+        height: 402px!important
+        object-fit: cover
+        position: relative
+        z-index: 19
+
+.last-svg
+    background: #0BE8F9E5
+    z-index: 12
+    position: absolute
+    left: 0px
+    bottom: -2px
+
+.slick-dots li button:before
+    position: absolute
+    top: 15px
+    font-size: 16px
+    text-align: center
+    color: $blue
+    opacity: 1
+.slick-dots li.slick-active button:before
+    font-size: 19px
+    color: $yellow
+
+.more-rides-section
+    .cards
+        position: relative
+        border-radius: 30px
+        border: 1px solid #919191
+        overflow: hidden
+        margin: 10px
+        img
+            height: 400px!important
+            object-fit: cover
+            object-position: center
+        .info
+            background-image: url('/assets/imgs/blue-bg.png')
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: top
+            position: absolute
+            bottom: 0px
+            z-index: 9
+            padding: 30px
+            height: 249px
+            padding-top: 80px
+            p,h3
+                color: #000
+            p
+                margin-bottom: 0px
+                font-size: 14px
+                line-height: 18px
