@@ -16,7 +16,7 @@ Rides & Attractions | Atlantic Water World
 <section class="attractions-section p-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-right">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/1.png" alt="" width="100%">
@@ -28,7 +28,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-left">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/2.png" alt="" width="100%">
@@ -40,7 +40,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-right">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/3.png" alt="" width="100%">
@@ -53,7 +53,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-left">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/4.png" alt="" width="100%">
@@ -65,7 +65,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-right">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/5.png" alt="" width="100%">
@@ -77,7 +77,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-left">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/6.png" alt="" width="100%">
@@ -90,7 +90,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-right">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/7.png" alt="" width="100%">
@@ -102,7 +102,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-left">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/8.png" alt="" width="100%">
@@ -114,7 +114,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-right">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/9.png" alt="" width="100%">
@@ -127,7 +127,7 @@ Rides & Attractions | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-4">
+            <div class="col-12 col-md-6 mb-4" data-aos="fade-left">
                 <div class="cards">
                     <div class="img-card">
                         <img src="/assets/imgs/rides/10.png" alt="" width="100%">

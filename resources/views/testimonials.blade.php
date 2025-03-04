@@ -16,7 +16,7 @@ Our Testimonials | Atlantic Water World
     <div class="container-fluid">
         <div class="row">
 
-            <div class="right-bottom">
+            <div class="right-bottom" data-aos="fade-left">
                 <div class="cards cards-blue">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/2.png" alt="Mr. Vikarm Fogla" width="120px">
@@ -31,7 +31,7 @@ Our Testimonials | Atlantic Water World
             </div>
 
 
-            <div class="left-cards">
+            <div class="left-cards" data-aos="fade-right">
                 <div class="cards cards-yellow">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/1.png" alt="Mr. Abhay" width="120px">
@@ -49,7 +49,7 @@ Our Testimonials | Atlantic Water World
         </div>
         <div class="row">
 
-            <div class="right-bottom">
+            <div class="right-bottom" data-aos="fade-left">
                 <div class="cards cards-yellow">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/5.png" alt="Mr. Rajan G" width="120px">
@@ -63,7 +63,7 @@ Our Testimonials | Atlantic Water World
             </div>
 
 
-            <div class="left-cards">
+            <div class="left-cards" data-aos="fade-right">
                 <div class="cards cards-blue">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/4.png" alt="Mr. Lakshay" width="120px">
@@ -80,7 +80,7 @@ Our Testimonials | Atlantic Water World
         </div>
         <div class="row">
 
-            <div class="right-bottom">
+            <div class="right-bottom" data-aos="fade-left">
                 <div class="cards cards-blue">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/6.png" alt="Ms. Tripti Charan" width="120px">
@@ -95,7 +95,7 @@ Our Testimonials | Atlantic Water World
             </div>
 
 
-            <div class="left-cards">
+            <div class="left-cards" data-aos="fade-right">
                 <div class="cards cards-yellow">
                     <div class="profile-img">
                         <img src="/assets/imgs/testimonials/3.png" alt="Ms. Lajo" width="120px">

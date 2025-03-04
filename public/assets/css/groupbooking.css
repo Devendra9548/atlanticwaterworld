@@ -1,8 +1,16 @@
 @import 'global.css';
+#schoolpicnic, #CorporateParties, #BirthdayCelebration {
+  scroll-margin-top: 100px;
+}
+
 .second-section {
   margin-top: -15px !important;
   background: #fff;
   position: relative;
+}
+.second-section .subheading {
+  font-size: 32px;
+  margin-bottom: 20px;
 }
 .second-section .container-fluid {
   background: #0A5383;

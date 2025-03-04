@@ -6,6 +6,7 @@ Events | Atlantic Water World
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="stylesheet" href="/assets/css/home.css" />
 <link rel="stylesheet" href="/assets/css/events.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 @endsection
 @section('body')
 <x-header />
@@ -67,20 +68,20 @@ $events = [
 <section class="post-event-section p-5">
     <div class="container-fluid">
         <div class="d-flex justify-content-center mb-5">
-            <h2 class="text-center">Past Events</h2>
+            <h2 class="text-center" data-aos="fade-right">Past Events</h2>
         </div>
         <div class="row mt-4">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-left">
                 <img src="/assets/imgs/event-1.png" alt="event-1" width="100%">
                 <p>Event : Crazy Angel at AWW</p>
                 <p>Date : 17th - 21st April 2019</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-top">
                 <img src="/assets/imgs/event-2.png" alt="event-2" width="100%">
                 <p>Event : Mega Weekend Madness</p>
                 <p>Date : 17th - 21st April 2019</p>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-right">
                 <img src="/assets/imgs/event-3.png" alt="event-3" width="100%">
                 <p>Event : Mother's Day Celebrations</p>
                 <p>Date : 8th - 12th May 2019</p>
@@ -91,6 +92,15 @@ $events = [
     <img src="/assets/imgs/last-line-bg.png" alt="" width="100%" class="pb-5 event-bottom-bg">
 </section>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        AOS.init();
+    });
+    </script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 
 <script>
 $(document).ready(function() {

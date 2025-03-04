@@ -1,4 +1,8 @@
 @import 'global.css';
+body {
+  overflow-x: hidden !important;
+}
+
 .bg-layer {
   margin: 0px !important;
   padding: 0px !important;

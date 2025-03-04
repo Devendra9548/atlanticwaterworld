@@ -18,20 +18,20 @@ Taxi | Atlantic Water World
         <div class="row">
             <div class="col-12 col-md-1"></div>
             <div class="col-12 col-md-6">
-                <p class="subheading">How to reach Atlantic Water World:</p>
+                <p class="subheading" data-aos="fade-right">How to reach Atlantic Water World:</p>
                 <ul>
-                    <li>3 km (6 min) from Sarita Vihar</li>
-                    <li>2 km (5 min) from Jasola Vihar</li>
-                    <li>7 km (15 min) from Noida Sector-18 Metro Station</li>
-                    <li>5 kms (9 mins) from Film City Noida</li>
-                    <li>16 kms (25 mins) from I.T.O</li>
-                    <li>17 kms (30 mins) from South Ex.</li>
-                    <li>6 kms (10 mins) from Noida Botanical Garden Metro Station</li>
-                    <li>19 kms (30 mins) from Connaught Place</li>
+                    <li data-aos="fade-right">3 km (6 min) from Sarita Vihar</li>
+                    <li data-aos="fade-right">2 km (5 min) from Jasola Vihar</li>
+                    <li data-aos="fade-right">7 km (15 min) from Noida Sector-18 Metro Station</li>
+                    <li data-aos="fade-right">5 kms (9 mins) from Film City Noida</li>
+                    <li data-aos="fade-right">16 kms (25 mins) from I.T.O</li>
+                    <li data-aos="fade-right">17 kms (30 mins) from South Ex.</li>
+                    <li data-aos="fade-right">6 kms (10 mins) from Noida Botanical Garden Metro Station</li>
+                    <li data-aos="fade-right">19 kms (30 mins) from Connaught Place</li>
                 </ul>
             </div>
             <div class="col-12 col-md-4">
-                <img src="/assets/imgs/taxi.png" alt="taxi" width="100%">
+                <img src="/assets/imgs/taxi.png" alt="taxi" width="100%" data-aos="fade-left">
             </div>
             <div class="col-12 col-md-1"></div>
         </div>

@@ -148,8 +148,8 @@ $ridesimg = [
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-5">
-                <h2 class="pt-5">Storm Eye</h2>
-                <p>Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool below.
+                <h2 class="pt-5" data-aos="fade-right">Storm Eye</h2>
+                <p data-aos="fade-right">Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool below.
                     Not for the faint hearted. Are you in the mood for a cyclone?</p>
             </div>
             <div class="col-12 col-md-1"></div>
@@ -180,31 +180,41 @@ $ridesimg = [
 <?php
 $galleryimg = [
       [
-        'img' => '/assets/imgs/rides/1.png', 
+        'img' => '/assets/imgs/gallery/1.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/2.png', 
+        'img' => '/assets/imgs/gallery/2.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/3.png', 
+        'img' => '/assets/imgs/gallery/3.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/4.png', 
+        'img' => '/assets/imgs/gallery/4.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/5.png', 
+        'img' => '/assets/imgs/gallery/5.jpg', 
+      ],
+      
+      [
+        'img' => '/assets/imgs/gallery/6.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/6.png', 
-      ],
-      [
-        'img' => '/assets/imgs/rides/7.png', 
+        'img' => '/assets/imgs/gallery/7.jpg', 
       ],     
       [
-        'img' => '/assets/imgs/rides/8.png', 
+        'img' => '/assets/imgs/gallery/8.jpg', 
       ],
       [
-        'img' => '/assets/imgs/rides/9.png', 
+        'img' => '/assets/imgs/gallery/9.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/gallery/10.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/gallery/11.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/gallery/12.jpg', 
       ],
       ];
 ?>

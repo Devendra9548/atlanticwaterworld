@@ -93,13 +93,13 @@ Offers | Atlantic Water World
     <div class="container-fluid pt-4 pb-5">
         <div class="row">
             <div class="col-12 col-md-8">
-                <div class="first">
+                <div class="first" data-aos="fade-right">
                     <p class="head">More Details</p>
                     <p>Adult : - <del>1299</del> 649</p>
                     <p>Child : - <del>799</del> 449</p>
                     <p>Sr. Citizen : - <del>899</del> 499</p>
                 </div>
-                <div class="second mt-4">
+                <div class="second mt-4" data-aos="fade-right">
                     <p class="head">Terms & Conditions:</p>
                     <ul class="m-0 p-0 ms-3">
                         <li>Offer valid for limited period.</li>
@@ -110,7 +110,7 @@ Offers | Atlantic Water World
                 </div>
             </div>
             <div class="col-12 col-md-4">
-                <div class="third d-flex align-items-center justify-content-center">
+                <div class="third d-flex align-items-center justify-content-center" data-aos="fade-left">
                     <div class="main">
                         <h3>Park Timings</h3>
                         <p>Monday To Sunday</p>

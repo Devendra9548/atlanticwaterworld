@@ -13,7 +13,7 @@ Contact Us | Atlantic Water World
 <section class="contact-info p-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-left">
                 <div class="card-info">
                     <div class="img-card d-flex align-items-center justify-content-center py-4">
                         <img src="/assets/imgs/location-icon.png" alt="location-icon" width="24%">
@@ -25,7 +25,7 @@ Contact Us | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-top">
                 <div class="card-info">
                     <div class="img-card d-flex align-items-center justify-content-center py-4">
                         <img src="/assets/imgs/phone-Icon.png" alt="phone-Icon" width="20.5%">
@@ -36,7 +36,7 @@ Contact Us | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4" data-aos="fade-right">
                 <div class="card-info">
                     <div class="img-card d-flex align-items-center justify-content-center py-4">
                         <img src="/assets/imgs/mail-icon.png" alt="mail-icon" width="25%">

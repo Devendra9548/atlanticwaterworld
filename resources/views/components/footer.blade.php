@@ -13,36 +13,38 @@
                 </ul>
                 <h3 class="ct-90">Water Park</h3>
                 <ul>
-                    <li><a href="#">Other</a></li> 
-                    <li><a href="{{route('newspr')}}">News & PR</a></li> 
-                    <li><a href="{{route('attractions')}}">Rides &  Attractions</a></li> 
-                    <li><a href="{{route('gallery')}}">Gallery</a></li> 
-                    <li><a href="{{route('testimonials')}}">Testimonials</a></li> 
+                    <li><a href="{{route('offer')}}">Offers</a></li>
+                    <li><a href="{{route('newspr')}}">News & PR</a></li>
+                    <li><a href="{{route('attractions')}}">Rides & Attractions</a></li>
+                    <li><a href="{{route('gallery')}}">Gallery</a></li>
+                    <li><a href="{{route('testimonials')}}">Testimonials</a></li>
                 </ul>
             </div>
             <div class="col-12 col-md-3">
                 <h3>Service</h3>
                 <ul>
-                    <li><a href="#">School Picnics</a></li> 
-                    <li><a href="#">Birthday Celebration</a></li> 
-                    <li><a href="#">Corporate Parties</a></li> 
+                    <li><a href="{{route('groupbooking')}}/#schoolpicnic">School Picnics</a></li>
+                    <li><a href="{{route('groupbooking')}}/#BirthdayCelebration">Birthday Celebration</a></li>
+                    <li><a href="{{route('groupbooking')}}/#CorporateParties">Corporate Parties</a></li>
                 </ul>
                 <h3 class="ct-90">Help Center</h3>
                 <ul>
-                    <li><a href="{{route('faq')}}">FAQs</a></li> 
-                    <li><a href="{{route('rulesregulations')}}">Ruels & Regulations</a></li> 
-                    <li><a href="{{route('termsconditions')}}">Terms & Conditions</a></li> 
-                    
+                    <li><a href="{{route('faq')}}">FAQs</a></li>
+                    <li><a href="{{route('rulesregulations')}}">Ruels & Regulations</a></li>
+                    <li><a href="{{route('termsconditions')}}">Terms & Conditions</a></li>
+
 
                 </ul>
             </div>
             <div class="col-12 col-md-3">
                 <h3>Travel Information</h3>
                 <ul>
-                    <li><a href="{{route('dmrc')}}">DMRC</a></li> 
-                    <li><a href="{{route('bus')}}">Public Bus</a></li> 
-                    <li><a href="{{route('taxi')}}">Taxi</a></li> 
-                    <li><a href="#">Navigation</a></li> 
+                    <li><a href="{{route('dmrc')}}">DMRC</a></li>
+                    <li><a href="{{route('bus')}}">Public Bus</a></li>
+                    <li><a href="{{route('taxi')}}">Taxi</a></li>
+                    <li><a
+                            href="https://www.google.com/maps/dir//Atlantic+Water+World,+Kalindi+Kunj+Park+Adjacent+to+Kalindi+Kunj+Metro+Station,+New+Delhi,+110025,+India/@28.5449866,77.2741186,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce565e8b8ad1b:0xa1e2429c132e090e!2m2!1d77.3091383!2d28.5449157">Navigation</a>
+                    </li>
                 </ul>
             </div>
             <div class="col-12 col-md-3 foot-4">
@@ -55,11 +57,16 @@
                 <p class="sub mt-3">E-Mail:</p>
                 <p>info@atlanticwaterworld.com</p>
                 <div class="social-media d-flex">
-                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="#"><img src="/assets/imgs/fb.png" alt="" width="100%"></a>
-                    <a href="#"><img src="/assets/imgs/ln.png" alt="" width="100%"></a>
-                    <a href="#"><img src="/assets/imgs/x.png" alt="" width="100%"></a>
-                    <a href="#"><img src="/assets/imgs/mail.png" alt="" width="100%"></a>
+                    <a href="https://www.instagram.com/atlanticwaterworld/" target="_blank"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/AtlanticWaterWorldPark/" target="_blank"><img
+                            src="/assets/imgs/fb.png" alt="" width="100%"></a>
+                    <a href="https://www.youtube.com/channel/UCIyCWpivG-P5YJ7d6qL_IxA" target="_blank" class="ii"><i
+                            class="fa-brands fa-youtube"></i></a>
+                    <a href="https://twitter.com/atlanticworld1" target="_blank"><img src="/assets/imgs/x.png" alt=""
+                            width="100%"></a>
+                    <a href="mailto:info@atlanticaterworld.com" target="_blank"><img src="/assets/imgs/mail.png" alt=""
+                            width="100%"></a>
                 </div>
             </div>
         </div>
@@ -148,7 +155,8 @@
     <div class="mainbar">
         <ul>
             <li>
-                <a href="https://www.tripadvisor.in/Attraction_Review-g304551-d12852722-Reviews-Atlantic_water_world-New_Delhi_National_Capital_Territory_of_Delhi.html" target="_blank">
+                <a href="https://www.tripadvisor.in/Attraction_Review-g304551-d12852722-Reviews-Atlantic_water_world-New_Delhi_National_Capital_Territory_of_Delhi.html"
+                    target="_blank">
                     <img src="/assets/imgs/tripadvisor.png" alt="" width="auto" class="pe-1">
                     <div class="content">
                         <p>Call Us at</p>
@@ -159,5 +167,5 @@
         </ul>
     </div>
 
-    
+
 </div>

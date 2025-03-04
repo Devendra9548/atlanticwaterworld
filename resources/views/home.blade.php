@@ -22,26 +22,26 @@ Home | Atlantic Water World
 
             <div class="col-12 col-md-6">
                 <div class="heading">
-                    <h2>Atlantic Water World</h2>
+                    <h2 data-aos="fade-right">Atlantic Water World</h2>
                     <!-- <img src="/assets/imgs/heading-line.png" alt=""> -->
                 </div>
 
                 <img src="/assets/imgs/bg.png" alt="" width="20%">
 
-                <p>The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
+                <p data-aos="fade-right">The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
                     Yamuna waterfront along the Kalindi Kunj barrage.</p>
-                <p>Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
+                <p data-aos="fade-right">Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
                     full of fun, thrill, sheer excitement and real entertainment.</p>
-                <p> With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
+                <p data-aos="fade-right">With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
                     like Aqua Funnel, Tornado - both of them, the first in North India.</p>
-                <p>At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience, with
+                <p data-aos="fade-right">At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience, with
                     our unparalleled safety standards, thrilling rides and offerings that leave you immersed in fun
                     throughout your time with us.</p>
             </div>
 
-            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end align-items-center pe-4">
+            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end align-items-center pe-4" data-aos="fade-left">
 
-                <div class="video-container" onclick="playVideo(this)">
+                <div class="video-container" onclick="playVideo(this)" >
                     <div class="play-button"></div>
                     <div class="play-btn">
                         <img src="/assets/imgs/play-btn.png" alt="" width="100px">
@@ -59,9 +59,9 @@ Home | Atlantic Water World
 </div>
 <section class="second-section p-2 pt-5 pb-5 water-world-section">
     <div class="container-fluid pt-5">
-        <h2 class="text-center mb-3 pb-3">Water World Attractions</h2>
+        <h2 class="text-center mb-3 pb-3" data-aos="fade-right">Water World Attractions</h2>
         <div class="d-flex justify-content-center mb-2">
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-right">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/2.png" alt="2.png" width="100%">
@@ -74,7 +74,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-right">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/3.png" alt="3.png" width="100%">
@@ -88,7 +88,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-top">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/4.png" alt="4.png" width="100%">
@@ -102,7 +102,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-left">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/5.png" alt="5.png" width="100%">
@@ -115,7 +115,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-left">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/6.png" alt="6.png" width="100%">
@@ -132,7 +132,7 @@ Home | Atlantic Water World
         </div>
 
         <div class="d-flex justify-content-center mb-3">
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-right">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/7.png" alt="7.png" width="100%">
@@ -146,7 +146,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-right">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/8.png" alt="8.png" width="100%">
@@ -159,7 +159,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-top">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/9.png" alt="9.png" width="100%">
@@ -175,7 +175,7 @@ Home | Atlantic Water World
             </div>
 
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-left">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/10.png" alt="10.png" width="100%">
@@ -190,7 +190,7 @@ Home | Atlantic Water World
                 </div>
             </div>
 
-            <div class="card-cts">
+            <div class="card-cts" data-aos="fade-left">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/11.png" alt="11.png" width="100%">
@@ -286,7 +286,7 @@ Home | Atlantic Water World
 <section class="third-section py-5">
     <div class="container">
         <div class="row text-center">
-            <h2 class="text-center">What Our Visitors Say About Us</h2>
+            <h2 class="text-center" data-aos="fade-right">What Our Visitors Say About Us</h2>
             <div class="line text-center mb-3">
                 <img src="/assets/imgs/blue-line-third.png" alt="">
             </div>

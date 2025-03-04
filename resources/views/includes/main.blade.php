@@ -48,6 +48,19 @@
 });
 
     </script>
+
+    <script>
+        document.querySelector("#mb-open").addEventListener('click',function(e){
+             e.preventDefault();
+             document.querySelector("header .main-nav").style.display="block";
+             
+        });
+        document.querySelector("#mb-close").addEventListener('click',function(e){
+             e.preventDefault();
+             document.querySelector("header .main-nav").style.display="none";
+             
+        });
+    </script>
 </body>
 
 </html>
