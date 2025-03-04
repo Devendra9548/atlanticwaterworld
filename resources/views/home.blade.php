@@ -15,16 +15,19 @@ Home | Atlantic Water World
     <div class="container-fluid pb-5">
         <div class="row">
             <div class="col-12 col-md-6">
-                <div class="heading">
-                    <h2>Atlantic <span>Water World</span></h2>
-                    <img src="/assets/imgs/heading-line.png" alt="">
-                </div>
 
-                <img src="/assets/imgs/bg.png" alt="" width="20%">
             </div>
         </div>
         <div class="row">
+
             <div class="col-12 col-md-6">
+                <div class="heading">
+                    <h2>Atlantic Water World</h2>
+                    <!-- <img src="/assets/imgs/heading-line.png" alt=""> -->
+                </div>
+
+                <img src="/assets/imgs/bg.png" alt="" width="20%">
+
                 <p>The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
                     Yamuna waterfront along the Kalindi Kunj barrage.</p>
                 <p>Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
@@ -36,7 +39,7 @@ Home | Atlantic Water World
                     throughout your time with us.</p>
             </div>
 
-            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end pe-4">
+            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end align-items-center pe-4">
 
                 <div class="video-container" onclick="playVideo(this)">
                     <div class="play-button"></div>
@@ -212,7 +215,8 @@ Home | Atlantic Water World
             <div class="content col-12 col-md-6 d-flex align-items-center">
                 <div>
                     <h2 id="getheading">Storm Eye</h2>
-                    <p id="getpara">Drop down an elevated chute and spin like a fusilli before splashing into a giant splash pool
+                    <p id="getpara">Drop down an elevated chute and spin like a fusilli before splashing into a giant
+                        splash pool
                         below.
                         Not for the faint hearted. Are you in the mood for a cyclone?</p>
                     <div class="btn-div mt-4">
@@ -222,8 +226,8 @@ Home | Atlantic Water World
             </div>
             <div class="col-12 col-md-6 px-0">
                 <div class="img-box">
-                <img id="imgsrc" src="/assets/imgs/2.png" alt="2.png" width="100%">
-                <h3 class="text-center" id="getheading1">Storm Eye</h3>
+                    <img id="imgsrc" src="/assets/imgs/2.png" alt="2.png" width="100%">
+                    <h3 class="text-center" id="getheading1">Storm Eye</h3>
                 </div>
             </div>
         </div>
@@ -235,39 +239,46 @@ Home | Atlantic Water World
     
     $testimonials = [
         [
-            'img' => '/assets/imgs/user1.png',
-            'name' => 'Trisha Charan',
-            'desc' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            'img' => '/assets/imgs/testimonials/6.png',
+            'name' => 'Ms. Tripti Charan',
+            'desc' => "Atlantic Water World is the new place to beat the heat this summer! They have rides for all ages
+                        and pools including one for family and wave pool. If you don't have swimming costume, there is
+                        no worry. Costumes, caps, mobile pouch are available on hire.",
         ],
         [
-            'img' => '/assets/imgs/user1.png',
-            'name' => 'Trisha Charan',
-            'desc' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            'img' => '/assets/imgs/testimonials/2.png',
+            'name' => 'Mr. Vikarm Fogla',
+            'desc' => "The Atlantic water world is a very good option to enjoy your weekend with Family and friends.
+                        There are more than 6 rides for adults and two separate sections for children. The Food is also
+                        good.",
         ],
         [
-            'img' => '/assets/imgs/user1.png',
-            'name' => 'Trisha Charan',
-            'desc' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            'img' => '/assets/imgs/testimonials/1.png',
+            'name' => 'Mr. Abhay',
+            'desc' => "A good place to visit. Before visiting we had doubts about water quality,
+                        crowd, gentry, food, toilets etc. etc. But we were pleasantly surprised that
+                        things were very smooth. Water was clean and all places were spick and
+                        span.",
         ],
         [
-            'img' => '/assets/imgs/user1.png',
-            'name' => 'Trisha Charan',
-            'desc' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            'img' => '/assets/imgs/testimonials/5.png',
+            'name' => 'Mr. Rajan G',
+            'desc' => "One of the best water park in the country. Visited with family and young children it was out of
+                        the world. Never expected that we have such a beautiful water park in the country.",
         ],
         [
-            'img' => '/assets/imgs/user1.png',
-            'name' => 'Trisha Charan',
-            'desc' => "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
-                            tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
-                            exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.",
+            'img' => '/assets/imgs/testimonials/4.png',
+            'name' => 'Mr. Lakshay',
+            'desc' => "It is very beautiful and well organized water park in delhi ncr awesome rids for adults and as
+                        well as for kids they have seprate section for kids locker and costume are avilable on low price
+                        water is cleand staff is well beahved.",
+        ],
+        [
+            'img' => '/assets/imgs/testimonials/3.png',
+            'name' => 'Ms. Lajo',
+            'desc' => "It was a wonderful visit to the Atlantic water world. They have so many items where we can play.
+                        May look adventurous, but , they maintain high safety standards. Definitely you can try out all
+                        of them, at reasonable cost",
         ],
      ]
 ?>
@@ -344,26 +355,25 @@ $highlights = [
 <x-footer />
 
 <script>
-    function modelshow(val){
-       var heading = val.querySelector("h3").innerHTML;
-       var para = val.querySelector("p").innerHTML;
-       var imgsrc = val.querySelector("img").src;
-       
-       let paragraph = para.replace(/\s+/g, ' ');
+function modelshow(val) {
+    var heading = val.querySelector("h3").innerHTML;
+    var para = val.querySelector("p").innerHTML;
+    var imgsrc = val.querySelector("img").src;
 
-       document.querySelector("#getheading").innerHTML=heading;
-       document.querySelector("#getheading1").innerHTML=heading;
-       document.querySelector("#getpara").innerHTML=paragraph;
-       document.querySelector("#imgsrc").src=imgsrc;
-       document.querySelector(".modelshow").style.display="block";
-    
-    }
- 
-    document.querySelector("#closeIcon").addEventListener('click',function(event){
-        event.preventDefault();
-        document.querySelector(".modelshow").style.display="none";
-    })
-    
+    let paragraph = para.replace(/\s+/g, ' ');
+
+    document.querySelector("#getheading").innerHTML = heading;
+    document.querySelector("#getheading1").innerHTML = heading;
+    document.querySelector("#getpara").innerHTML = paragraph;
+    document.querySelector("#imgsrc").src = imgsrc;
+    document.querySelector(".modelshow").style.display = "block";
+
+}
+
+document.querySelector("#closeIcon").addEventListener('click', function(event) {
+    event.preventDefault();
+    document.querySelector(".modelshow").style.display = "none";
+})
 </script>
 
 <script>
@@ -371,6 +381,7 @@ $(document).ready(function() {
     $('.testimonials').slick({
         dots: true,
         arrows: false,
+        fade: true,
         infinite: true,
         speed: 300,
         slidesToShow: 1,

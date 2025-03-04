@@ -22,9 +22,6 @@
   left: 42%;
   z-index: 1;
 }
-.first-section .heading {
-  width: 275px;
-}
 .first-section .heading img {
   width: 96%;
   margin-top: 10px;
@@ -40,13 +37,14 @@
 }
 .first-section p {
   margin-bottom: 0px;
+  color: #000;
 }
 
 .video-container {
   position: relative;
   width: 560px;
   height: 315px;
-  background: url("/assets/imgs/youtube-thumb.png") center/cover;
+  background: url("/assets/imgs/youtube-thumb.jpg") center/cover;
   cursor: pointer;
   outline: 2px solid #000;
   outline-offset: 15px;
@@ -163,6 +161,20 @@
   padding: 60px 0px;
   background-position: top;
   border-radius: 60px;
+}
+.third-section .container .img-card {
+  background-image: url(/assets/imgs/ellipse.png);
+  padding: 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+.third-section .container .img-card img {
+  border-radius: 100px;
+  border: 10px solid #f9f9f9;
 }
 .third-section .container h2 {
   color: #fff;

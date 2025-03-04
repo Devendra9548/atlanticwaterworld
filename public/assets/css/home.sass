@@ -21,7 +21,6 @@ $yellow: #F3E10B
         left: 42%
         z-index: 1
     .heading
-        width: 275px
         img
             width: 96%
             margin-top: 10px
@@ -34,12 +33,13 @@ $yellow: #F3E10B
                 line-height: 40px
     p
         margin-bottom: 0px
+        color: #000
 
 .video-container
     position: relative
     width: 560px
     height: 315px
-    background: url('/assets/imgs/youtube-thumb.png') center/cover
+    background: url('/assets/imgs/youtube-thumb.jpg') center/cover
     cursor: pointer
     outline: 2px solid #000
     outline-offset: 15px
@@ -140,6 +140,18 @@ $yellow: #F3E10B
         padding: 60px 0px
         background-position: top
         border-radius: 60px
+        .img-card
+            background-image: url(/assets/imgs/ellipse.png)
+            padding: 0px
+            background-size: contain
+            background-repeat: no-repeat
+            background-position: center
+            padding-bottom: 10px
+            padding-left: 6px
+            padding-right: 6px
+            img
+                border-radius: 100px
+                border: 10px solid #f9f9f9
         h2
             color: #fff
         .testimonials

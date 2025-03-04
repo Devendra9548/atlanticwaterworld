@@ -12,7 +12,7 @@
 }
 .maincard-section .slide h3 {
   color: #222222;
-  width: 55%;
+  width: 85%;
   font-weight: 500;
   font-size: 26px;
   line-height: 42px;
@@ -154,6 +154,6 @@ header {
 @media only screen and (max-width: 1300px) {
   .maincard-section .slide h3 {
     color: #222222;
-    width: 65%;
+    width: 85%;
   }
 }/*# sourceMappingURL=blogs.css.map */

@@ -17,29 +17,29 @@ Blogs
     $recentBlog = [
         [
             'img' => '/assets/imgs/2.png',
-            'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
-            'para' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolor, necessitatibus aperiam earum esse impedit! Deleniti accusamus obcaecati eveniet ex eum aspernatur. Non eum, mollitia veniam possimus quod necessitatibus accusantium!',
+            'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
+            'para' => 'Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the heat than a thrilling adventure at a water park? But are you ready to take it up a notch and conquer the Mahamudra of Masti (The ultimate challenge of fun)?',
             'date' => '1 March 2025',
             'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
         [
             'img' => '/assets/imgs/2.png',
-            'name' => 'The Ultimate Water Park Challenge: Can You Conquer It All',
-            'para' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolor, necessitatibus aperiam earum esse impedit! Deleniti accusamus obcaecati eveniet ex eum aspernatur. Non eum, mollitia veniam possimus quod necessitatibus accusantium!',
+            'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
+            'para' => 'Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the heat than a thrilling adventure at a water park? But are you ready to take it up a notch and conquer the Mahamudra of Masti (The ultimate challenge of fun)?',
             'date' => '2 March 2025',
             'slug' => 'the-ultimate-water-park-challenge-can-you-conquer-it-all', 
         ],
         [
             'img' => '/assets/imgs/2.png',
-            'name' => 'Making the Most of Your Visit with Young Children',
-            'para' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolor, necessitatibus aperiam earum esse impedit! Deleniti accusamus obcaecati eveniet ex eum aspernatur. Non eum, mollitia veniam possimus quod necessitatibus accusantium!',
+            'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
+            'para' => 'Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the heat than a thrilling adventure at a water park? But are you ready to take it up a notch and conquer the Mahamudra of Masti (The ultimate challenge of fun)?',
             'date' => '3 March 2025',
             'slug' => 'making-the-most-of-your-visit-with-young-children', 
         ],
         [
             'img' => '/assets/imgs/2.png',
-            'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
-            'para' => 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam dolor, necessitatibus aperiam earum esse impedit! Deleniti accusamus obcaecati eveniet ex eum aspernatur. Non eum, mollitia veniam possimus quod necessitatibus accusantium!',
+            'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
+            'para' => 'Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the heat than a thrilling adventure at a water park? But are you ready to take it up a notch and conquer the Mahamudra of Masti (The ultimate challenge of fun)?',
             'date' => '4 March 2025',
             'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
@@ -77,60 +77,60 @@ Blogs
     $blogs = [
       [
         [
-            'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
+            'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
             'date' => '1 March 2025',
             'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
         [
-          'name' => 'The Ultimate Water Park Challenge: Can You Conquer It All',
+          'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
           'date' => '2 March 2025',
           'slug' => 'the-ultimate-water-park-challenge-can-you-conquer-it-all', 
         ],
       ],
       [
         [
-          'name' => 'Making the Most of Your Visit with Young Children',
+          'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
           'date' => '3 March 2025',
           'slug' => 'making-the-most-of-your-visit-with-young-children', 
         ],
         [
-        'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '4 March 2025',
         'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
       ],
       [
         [
-        'name' => 'Making the Most of Your Visit with Young Children',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '5 March 2025',
         'slug' => 'making-the-most-of-your-visit-with-young-children', 
         ],
         [
-        'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '6 March 2025',
         'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
       ],
       [
         [
-        'name' => 'Making the Most of Your Visit with Young Children',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '7 March 2025',
         'slug' => 'making-the-most-of-your-visit-with-young-children', 
         ],
         [
-        'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '8 March 2025',
         'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
         ],
       ],
       [
        [
-        'name' => 'Making the Most of Your Visit with Young Children',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '9 March 2025',
         'slug' => 'making-the-most-of-your-visit-with-young-children', 
        ],
        [
-        'name' => 'Top 10 Water Park Activities for the Perfect Family Day',
+        'name' => 'The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?',
         'date' => '10 March 2025',
         'slug' => 'top-10-water-park-activities-for-the-perfect-family-day', 
        ],
