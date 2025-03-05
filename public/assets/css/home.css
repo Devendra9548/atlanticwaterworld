@@ -294,6 +294,12 @@ body {
   border-radius: 30px;
 }
 
+.water-world-section .desktop-none {
+  display: none !important;
+}
+.water-world-section .mb-none {
+  display: block !important;
+}
 .water-world-section .row {
   background: rgba(11, 232, 249, 0.8980392157);
   padding: 50px;
@@ -306,6 +312,18 @@ body {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
+}
+
+.isLine {
+  height: 700px;
+  display: flex;
+  align-items: end;
+  background-image: url("/assets/imgs/waterbg.png");
+  background-repeat: no-repeat !important;
+  background-size: cover;
+}
+.isLine img {
+  padding-bottom: 0px !important;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -326,5 +344,124 @@ body {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 170px;
+  }
+  .third-section .img-card {
+    width: 28%;
+  }
+  .third-section .img-card img {
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero-section .row {
+    position: relative;
+    height: 65vh;
+  }
+  .second-line-bg .actual-line {
+    height: 68px;
+  }
+  .second-section h2 {
+    margin-bottom: 0px !important;
+  }
+  .second-section .container-fluid {
+    padding: 0px;
+  }
+  .second-section .row {
+    background: rgba(11, 232, 249, 0.8980392157);
+    padding: 35px;
+    border-radius: 40px;
+  }
+  .second-section .row img {
+    border-radius: 40px;
+    height: 290px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+  .second-section .card-cts .main .img-card img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 170px;
+  }
+  .third-section {
+    padding: 10px;
+  }
+  .third-section .container .testimonials {
+    width: 100% !important;
+  }
+  .third-section .row {
+    margin: 0px !important;
+  }
+  .third-section .img-card {
+    width: 30%;
+  }
+  .third-section .img-card img {
+    width: 100% !important;
+    border: 5px solid #f9f9f9 !important;
+  }
+  .third-section .slide-card {
+    border-radius: 30px;
+  }
+  .third-section .slide-card p {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .third-section .slide-card .user-info .name {
+    font-size: 18px;
+  }
+  .third-section .slide-card .rating img {
+    width: 22px;
+    height: auto;
+    margin-right: 5px;
+  }
+  .water-world-section .d-flex {
+    display: block !important;
+  }
+  .water-world-section .card-cts {
+    padding: 5px;
+    width: 49%;
+    display: inline-block !important;
+  }
+  .water-world-section .desktop-none {
+    display: inline-block !important;
+  }
+  .water-world-section .mb-none {
+    display: none !important;
+  }
+  .heighlight-section img {
+    width: 100% !important;
+    padding: 5px !important;
+  }
+  .isLine {
+    height: 240px;
+    display: flex;
+    align-items: end;
+    background-image: url("/assets/imgs/waterbg.png");
+    background-repeat: no-repeat !important;
+    background-size: cover;
+  }
+  .isLine img {
+    padding-bottom: 0px !important;
+    height: 60px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    bottom: -18px;
+  }
+  .bg-layer svg {
+    height: 50px;
+  }
+  .first-section {
+    margin-top: -85px !important;
+    padding-top: 40px !important;
+  }
+  .video-container {
+    position: relative;
+    width: 100%;
+    height: 220px;
+  }
+  .video-clms {
+    padding: 25px !important;
   }
 }/*# sourceMappingURL=home.css.map */

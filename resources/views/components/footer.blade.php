@@ -1,8 +1,8 @@
 <div class="py-5 isLine">
     <img src="/assets/imgs/last-line-bg.png" alt="" width="100%" class="pb-5">
 </div>
-<footer class="p-3">
-    <div class="container-fluid p-5">
+<footer class="p-3" id="footer">
+    <div class="container-fluid p-0 p-md-5">
         <div class="row">
             <div class="col-12 col-md-3">
                 <h3>About Us</h3>

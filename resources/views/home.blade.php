@@ -10,7 +10,7 @@ Home | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="" />
 
-<section class="first-section p-5 position-relative">
+<section class="first-section p-2 p-md-5 position-relative">
 
     <div class="container-fluid pb-5">
         <div class="row">
@@ -39,7 +39,7 @@ Home | Atlantic Water World
                     throughout your time with us.</p>
             </div>
 
-            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end align-items-center pe-4" data-aos="fade-left">
+            <div class="col-12 col-md-6 position-relative pt-3 d-flex justify-content-end align-items-center pe-4 video-clms" data-aos="fade-left">
 
                 <div class="video-container" onclick="playVideo(this)" >
                     <div class="play-button"></div>
@@ -57,7 +57,7 @@ Home | Atlantic Water World
     <div class="actual-line"></div>
 
 </div>
-<section class="second-section p-2 pt-5 pb-5 water-world-section">
+<section class="second-section p-2 pt-0 pt-md-5 pb-5 water-world-section">
     <div class="container-fluid pt-5">
         <h2 class="text-center mb-3 pb-3" data-aos="fade-right">Water World Attractions</h2>
         <div class="d-flex justify-content-center mb-2">
@@ -128,11 +128,24 @@ Home | Atlantic Water World
                     </div>
                 </div>
             </div>
+            <div class="card-cts desktop-none" data-aos="fade-right">
+                <div class="main main-bg-1" onclick="modelshow(this)">
+                    <div class="img-card">
+                        <img src="/assets/imgs/7.png" alt="7.png" width="100%">
+                    </div>
+                    <div class="content-card">
+                        <h3>Racer</h3>
+                        <p>Ready to see who's the fastest wave rider in your gang? Hop on the Racer with two of your
+                            friends
+                            and show them who's the master of speed as you race them down the slide.</p>
+                    </div>
+                </div>
+            </div>
 
         </div>
 
         <div class="d-flex justify-content-center mb-3">
-            <div class="card-cts" data-aos="fade-right">
+            <div class="card-cts mb-none" data-aos="fade-right">
                 <div class="main main-bg-1" onclick="modelshow(this)">
                     <div class="img-card">
                         <img src="/assets/imgs/7.png" alt="7.png" width="100%">
@@ -293,13 +306,13 @@ Home | Atlantic Water World
             <div class="testimonials">
                 @foreach($testimonials as $tm)
                 <div class="slide-card row">
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 col-md-6 d-flex align-items-center order-2 order-md-1 mt-3 mt-md-0 p-0 p-md-2">
                         <div class="img-card">
                             <img src="{{$tm['img']}}" alt="{{$tm['img']}}" width="180px">
                         </div>
-                        <div class="user-info ps-4">
+                        <div class="user-info ps-3 ps-md-4">
                             <p class="name">{{$tm['name']}}</p>
-                            <div class="rating d-flex mt-3">
+                            <div class="rating d-flex mt-1 mt-md-3">
                                 <img src="/assets/imgs/star.png" alt="star">
                                 <img src="/assets/imgs/star.png" alt="star">
                                 <img src="/assets/imgs/star.png" alt="star">
@@ -308,7 +321,7 @@ Home | Atlantic Water World
                             </div>
                         </div>
                     </div>
-                    <div class="col-6 d-flex align-items-center">
+                    <div class="col-12 col-md-6 d-flex align-items-center order-1 order-md-2">
                         <p>{{$tm['desc']}}</p>
                     </div>
                 </div>
@@ -338,7 +351,7 @@ $highlights = [
         ],
     ];
 ?>
-<section class="heighlight-section p-5">
+<section class="heighlight-section p-2 p-md-5">
     <div class="container-fluid">
         <h2>Highlights & Events</h2>
         <div class="highlights row mt-5">
@@ -389,8 +402,8 @@ $(document).ready(function() {
         responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -398,8 +411,8 @@ $(document).ready(function() {
             {
                 breakpoint: 600,
                 settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToShow: 1,
+                    slidesToScroll: 1
                 }
             },
             {
@@ -426,27 +439,26 @@ $(document).ready(function() {
         responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
                 }
             },
             {
                 breakpoint: 600,
                 settings: {
                     slidesToShow: 2,
-                    slidesToScroll: 2
+                    slidesToScroll: 1
                 }
             },
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                     slidesToScroll: 1
                 }
             }
         ]
+        
     });
 });
 </script>

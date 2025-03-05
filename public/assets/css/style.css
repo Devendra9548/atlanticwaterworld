@@ -253,6 +253,9 @@ footer .foot-4 .social-media .ii {
   }
 }
 @media only screen and (max-width: 768px) {
+  .hero-section img {
+    width: 100% !important;
+  }
   #mb-open, #mb-close {
     display: block;
   }
@@ -301,5 +304,11 @@ footer .foot-4 .social-media .ii {
   header nav ul .last-nav {
     padding-top: 15px;
     padding-bottom: 30px !important;
+  }
+  #footer {
+    padding: 40px 15px !important;
+  }
+  #footer .ct-90, #footer h3 {
+    margin-top: 30px;
   }
 }/*# sourceMappingURL=style.css.map */
