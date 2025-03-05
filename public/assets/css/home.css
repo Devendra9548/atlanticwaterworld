@@ -464,4 +464,13 @@ body, html {
   .video-clms {
     padding: 25px !important;
   }
+  .first-section .play-btn {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 1;
+  }
+  .first-section .play-btn img {
+    width: 80px;
+  }
 }/*# sourceMappingURL=home.css.map */
