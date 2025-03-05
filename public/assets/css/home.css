@@ -1,5 +1,5 @@
 @import 'global.css';
-body {
+body, html {
   overflow-x: hidden !important;
 }
 
