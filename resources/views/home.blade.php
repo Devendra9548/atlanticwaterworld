@@ -220,7 +220,7 @@ Home | Atlantic Water World
                         below.
                         Not for the faint hearted. Are you in the mood for a cyclone?</p>
                     <div class="btn-div mt-4">
-                        <a href="#" class="btn btn-yellow btn-cts">Book Now</a>
+                        <a href="{{route('ticketbooking')}}" class="btn btn-yellow btn-cts">Book Now</a>
                     </div>
                 </div>
             </div>
