@@ -138,25 +138,25 @@ $events = [
 </section>
 
 <section class="post-event-section p-5">
-    <div class="container-fluid">
+    <div class="container-fluid pb=4">
         <div class="d-flex justify-content-center mb-5">
             <h2 class="text-center" data-aos="fade-right">Past Events</h2>
         </div>
         <div class="row mt-4">
             <div class="col-12 col-md-4" data-aos="fade-left">
-                <img src="/assets/imgs/event-1.png" alt="event-1" width="100%">
-                <p>Event : Crazy Angel at AWW</p>
-                <p>Date : 17th - 21st April 2019</p>
+                <img src="/assets/imgs/highlights/1.jpg" alt="event-1" width="100%">
+                <!-- <p>Event : Crazy Angel at AWW</p>
+                <p>Date : 17th - 21st April 2019</p> -->
             </div>
             <div class="col-12 col-md-4" data-aos="fade-top">
-                <img src="/assets/imgs/event-2.png" alt="event-2" width="100%">
-                <p>Event : Mega Weekend Madness</p>
-                <p>Date : 17th - 21st April 2019</p>
+                <img src="/assets/imgs/highlights/2.jpg" alt="event-2" width="100%">
+                <!-- <p>Event : Mega Weekend Madness</p>
+                <p>Date : 17th - 21st April 2019</p> -->
             </div>
             <div class="col-12 col-md-4" data-aos="fade-right">
-                <img src="/assets/imgs/event-3.png" alt="event-3" width="100%">
-                <p>Event : Mother's Day Celebrations</p>
-                <p>Date : 8th - 12th May 2019</p>
+                <img src="/assets/imgs/highlights/3.jpg" alt="event-3" width="100%">
+                <!-- <p>Event : Mother's Day Celebrations</p>
+                <p>Date : 8th - 12th May 2019</p> -->
             </div>
         </div>
     </div>
