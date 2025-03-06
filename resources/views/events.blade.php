@@ -137,8 +137,8 @@ $events = [
     </div>
 </section>
 
-<section class="post-event-section p-5">
-    <div class="container-fluid pb=4">
+<section class="post-event-section p-2 p-md-5">
+    <div class="container-fluid">
         <div class="d-flex justify-content-center mb-5">
             <h2 class="text-center" data-aos="fade-right">Past Events</h2>
         </div>
@@ -188,8 +188,8 @@ $(document).ready(function() {
         responsive: [{
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     infinite: true,
                     dots: true
                 }
@@ -204,8 +204,8 @@ $(document).ready(function() {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
+                    slidesToShow: 2,
+                    slidesToScroll: 2
                 }
             }
         ]

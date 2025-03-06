@@ -49,3 +49,44 @@ $yellow: #F3E10B
         img
             height: 320px !important
             object-fit: cover
+
+@media only screen and (max-width:768px)
+    .event-bottom-bg
+        display: none
+    .events-section
+        background: #fff !important
+        margin-top: -18px !important
+        opacity: 1
+        position: relative
+        z-index: 12
+        .slick-slide
+            img
+                height: 142px !important
+                border: 1px solid #0006
+        .p-3
+            padding: 5px !important
+    .slick-dots li button:before
+        position: absolute
+        top: 15px
+        font-size: 16px
+        text-align: center
+        color: #000
+        opacity: 1
+    .slick-dots li.slick-active button:before
+        font-size: 20px
+
+    .post-event-section
+        padding-top: 45px !important
+        padding-bottom: 10px !important
+        background-position: top center
+        background: transparent
+
+    .isLine
+        height: 250px
+        display: flex
+        align-items: end
+        background-image: url('/assets/imgs/waterbg.png')
+        background-repeat: no-repeat!important
+        background-size: cover
+        img
+            padding-bottom: 0px !important

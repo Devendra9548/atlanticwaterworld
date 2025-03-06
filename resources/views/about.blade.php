@@ -10,33 +10,33 @@ About Us | Atlantic Water World
 @section('body')
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Atlantic Water World" />
-<section class="second-section p-5">
+<section class="second-section p-2 p-md-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-6 pe-2 pe-md-5 bg-content">
+            <div class="col-12 col-md-6 pe-2 pe-md-5 bg-content order-2 order-md-1" data-aos="fade-right">
                 <div class="layer">
-                    <h3 class="mb-3" data-aos="fade-right">The best water park in Delhi NCR, Atlantic Water World is surround by a water canal
+                    <h3 class="mb-3">The best water park in Delhi NCR, Atlantic Water World is surround by a water canal
                         and
                         sits on the
                         Yamuna waterfront along the Kalindi Kunj barrage.</h3>
-                    <p data-aos="fade-right">Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect
+                    <p>Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect
                         getaway
                         full of fun, thrill, sheer excitement and real entertainment.
                     </p>
-                    <p data-aos="fade-right">With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
+                    <p>With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
                         like Aqua Funnel, Tornado - both of them, the first in North India.</p>
-                    <p data-aos="fade-right">At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience,
+                    <p>At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience,
                         with
                         our unparalleled safety standards, thrilling rides and offerings that leave you immersed in fun
                         throughout your time with us.</p>
-                    <p data-aos="fade-right">Reaching the park is easy-peasy. Being in the heart of South Delhi, it has direct connectivity
+                    <p>Reaching the park is easy-peasy. Being in the heart of South Delhi, it has direct connectivity
                         with
                         the entire city. It's just 100 meters from the Kalindi Kunj Metro Station, and is well served by
                         all
                         the cab providers.</p>
                 </div>
             </div>
-            <div class="col-12 col-md-6" data-aos="fade-left">
+            <div class="col-12 col-md-6 order-1 order-md-2 mb-3 mt-3 mt-md-0 mb-md-0" data-aos="fade-left">
                 <img src="/assets/imgs/about-right1.png" alt="about-right1" width="100%">
             </div>
         </div>
@@ -46,7 +46,7 @@ About Us | Atlantic Water World
     <img src="/assets/imgs/about-line.png" alt="about-right1" width="100%">
 </div>
 
-<section class="p-5 third-section">
+<section class="third-section p-2 p-md-5">
     <div class="container-fluid pt-5">
         <h2 class="text-center mb-3" data-aos="fade-right">Rides We Offer</h2>
         <div class="d-flex justify-content-center mb-2">

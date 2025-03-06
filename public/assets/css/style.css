@@ -1,4 +1,13 @@
 @import 'global.css';
+.fixheader .container-fluid {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background: #0A5383;
+  top: -1px;
+  width: 100%;
+}
+
 header {
   background: #0A5383;
   position: sticky;

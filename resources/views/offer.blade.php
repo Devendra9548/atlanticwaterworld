@@ -10,10 +10,10 @@ Offers | Atlantic Water World
 @section('body')
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Offers" />
-<section class="offer-section p-5 pb-0">
-    <div class="container-fluid pt-3 px-5">
+<section class="offer-section p-2 p-md-5 pb-0">
+    <div class="container-fluid pt-3 px-0 px-md-5">
         <div class="row">
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-0 mb-md-3">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -31,7 +31,7 @@ Offers | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-0 mb-md-3">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -49,7 +49,7 @@ Offers | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-0 mb-md-3">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -67,7 +67,7 @@ Offers | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 mb-3">
+            <div class="col-12 col-md-6 mb-0 mb-md-3">
                 <div class="flip-card">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
@@ -89,7 +89,7 @@ Offers | Atlantic Water World
     </div>
 </section>
 
-<section class="p-5 contact-section">
+<section class="p-2 p-md-5 contact-section">
     <div class="container-fluid pt-4 pb-5">
         <div class="row">
             <div class="col-12 col-md-8">

@@ -64,14 +64,22 @@
   color: #000;
 }
 
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
+@media only screen and (max-width: 768px) {
+  .full-lin img {
+    height: 47px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .third-section .d-flex {
+    display: block !important;
+  }
+  .third-section .card-cts {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2666666667);
+    padding: 0px !important;
+    border-radius: 35px;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=about.css.map */

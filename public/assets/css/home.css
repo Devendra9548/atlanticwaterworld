@@ -455,6 +455,8 @@ body, html {
   .first-section {
     margin-top: -85px !important;
     padding-top: 40px !important;
+    z-index: 10;
+    position: relative;
   }
   .video-container {
     position: relative;
@@ -499,5 +501,10 @@ body, html {
   .second-section .modelshow .btn-div {
     margin-bottom: 20px !important;
     margin-top: 15px !important;
+  }
+  .hero-section-last-svg {
+    z-index: 10;
+    position: relative;
+    height: 50px;
   }
 }/*# sourceMappingURL=home.css.map */
