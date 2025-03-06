@@ -5,7 +5,7 @@
         </div>
         <div class="row d-flex justify-content-center align-items-center p-0 m-0">
             <div class="col-12 col-md-12 text-center">
-                <img src="/assets/imgs/logo.png" alt="logo.png" width="350px" data-aos="fade-right">
+                <img src="/assets/imgs/logo.png" alt="logo.png" width="350px" data-aos="fade-right" id="herologo">
                 @if($hero==1)
                 <div class="btn-div mt-4">
                     <a href="{{route('ticketbooking')}}" class="btn btn-yellow" data-aos="fade-left">Book Now</a>

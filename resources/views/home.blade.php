@@ -225,7 +225,7 @@ Home | Atlantic Water World
             <a href="#"><i class="fa fa-window-close" aria-hidden="true"></i></a>
         </div>
         <div class="row">
-            <div class="content col-12 col-md-6 d-flex align-items-center">
+            <div class="content col-12 col-md-6 d-flex align-items-center order-2 order-md-1">
                 <div>
                     <h2 id="getheading">Storm Eye</h2>
                     <p id="getpara">Drop down an elevated chute and spin like a fusilli before splashing into a giant
@@ -237,7 +237,7 @@ Home | Atlantic Water World
                     </div>
                 </div>
             </div>
-            <div class="col-12 col-md-6 px-0">
+            <div class="col-12 col-md-6 px-0 order-1 order-md-2">
                 <div class="img-box">
                     <img id="imgsrc" src="/assets/imgs/2.png" alt="2.png" width="100%">
                     <h3 class="text-center" id="getheading1">Storm Eye</h3>

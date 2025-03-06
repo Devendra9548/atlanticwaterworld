@@ -253,6 +253,9 @@ footer .foot-4 .social-media .ii {
   }
 }
 @media only screen and (max-width: 768px) {
+  .hero-section .row .btn-div .btn-yellow {
+    font-size: 16px;
+  }
   .hero-section img {
     width: 100% !important;
   }
@@ -310,5 +313,8 @@ footer .foot-4 .social-media .ii {
   }
   #footer .ct-90, #footer h3 {
     margin-top: 30px;
+  }
+  #herologo {
+    width: 75% !important;
   }
 }/*# sourceMappingURL=style.css.map */
