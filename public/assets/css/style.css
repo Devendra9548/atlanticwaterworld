@@ -285,7 +285,7 @@ footer .foot-4 .social-media .ii {
     display: none;
     height: auto !important;
     background: #0A5383 !important;
-    position: absolute;
+    position: fixed;
     top: 0px;
     width: 100%;
     z-index: 9;
