@@ -335,25 +335,46 @@ Home | Atlantic Water World
 <?php
 $highlights = [
         [
-            'img' => '/assets/imgs/highlights/1.png',
+            'img' => '/assets/imgs/events/1.jpg',
         ],
         [
-            'img' => '/assets/imgs/highlights/2.png',
+            'img' => '/assets/imgs/events/6.jpg',
         ],
         [
-            'img' => '/assets/imgs/highlights/3.png',
+            'img' => '/assets/imgs/events/27.jpg',
         ],
         [
-            'img' => '/assets/imgs/highlights/1.png',
+            'img' => '/assets/imgs/events/10.jpg',
         ],
         [
-            'img' => '/assets/imgs/highlights/2.png',
+            'img' => '/assets/imgs/events/13.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/14.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/15.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/18.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/19.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/25.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/26.jpg',
+        ],
+        [
+            'img' => '/assets/imgs/events/9.jpg',
         ],
     ];
 ?>
 <section class="heighlight-section p-2 p-md-5">
     <div class="container-fluid">
-        <h2>Highlights & Events</h2>
+        <h2 class="text-center">Highlights & Events</h2>
         <div class="highlights row mt-5">
             @foreach($highlights as $hl)
             <div class="col-4">

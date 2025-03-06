@@ -43,4 +43,10 @@
   position: absolute;
   left: 0px;
   width: 100%;
+}
+
+.events-section .slick-slide img {
+  height: 320px !important;
+  -o-object-fit: cover;
+     object-fit: cover;
 }/*# sourceMappingURL=events.css.map */

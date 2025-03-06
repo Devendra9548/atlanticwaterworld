@@ -16,34 +16,106 @@ Events | Atlantic Water World
 $events = [
     [
       [
-        'img' => '/assets/imgs/events/1.png', 
+        'img' => '/assets/imgs/events/1.jpg', 
       ],
       [
-        'img' => '/assets/imgs/events/3.png', 
-      ],
-    ],
-    [
-      [
-        'img' => '/assets/imgs/events/2.png', 
-      ],
-      [
-        'img' => '/assets/imgs/events/1.png', 
+        'img' => '/assets/imgs/events/14.jpg', 
       ],
     ],
     [
       [
-        'img' => '/assets/imgs/events/1.png', 
+        'img' => '/assets/imgs/events/2.jpg', 
       ],
       [
-        'img' => '/assets/imgs/events/3.png', 
+        'img' => '/assets/imgs/events/15.jpg', 
       ],
     ],
     [
       [
-        'img' => '/assets/imgs/events/1.png', 
+        'img' => '/assets/imgs/events/3.jpg', 
       ],
       [
-        'img' => '/assets/imgs/events/3.png', 
+        'img' => '/assets/imgs/events/16.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/4.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/17.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/5.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/18.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/6.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/19.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/7.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/20.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/8.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/21.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/9.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/22.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/10.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/23.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/11.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/24.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/12.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/25.jpg', 
+      ],
+    ],
+    [
+      [
+        'img' => '/assets/imgs/events/13.jpg', 
+      ],
+      [
+        'img' => '/assets/imgs/events/26.jpg', 
       ],
     ],
     ];
