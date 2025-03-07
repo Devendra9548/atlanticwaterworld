@@ -37,11 +37,8 @@ DMRC | Atlantic Water World
 <x-herosection hero="1" heroheading="" heropara="" heading="DMRC" />
 
 <section class="bus-section p-2 pt-5 p-md-5">
-   <!-- <div class="container-fluid">
-    <img src="/assets/imgs/dmrc-img.jpg" alt="dmrc" width="100%">
-   </div> -->
    <div class="image-container">
-        <img src="http://127.0.0.1:8000/assets/imgs/dmrc-img.jpg" alt="Image" id="mainImage">
+        <img src="/assets/imgs/dmrc-img.jpg" alt="Image" id="mainImage">
         <div class="magnifier" id="magnifier"></div>
     </div>
 </section>
