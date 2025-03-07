@@ -44,28 +44,32 @@ DMRC | Atlantic Water World
 </section>
 <x-footer />
 
-
 <script>
-        const mainImage = document.getElementById("mainImage");
-        const magnifier = document.getElementById("magnifier");
+    document.addEventListener("DOMContentLoaded", function () {
+        if (window.innerWidth > 768) { 
+            const mainImage = document.getElementById("mainImage");
+            const magnifier = document.getElementById("magnifier");
 
-        mainImage.addEventListener("mousemove", function (e) {
-            let { left, top, width, height } = mainImage.getBoundingClientRect();
-            let x = e.pageX - left - window.scrollX;
-            let y = e.pageY - top - window.scrollY;
+            mainImage.addEventListener("mousemove", function (e) {
+                let { left, top, width, height } = mainImage.getBoundingClientRect();
+                let x = e.pageX - left - window.scrollX;
+                let y = e.pageY - top - window.scrollY;
 
-            let bgX = (x / width) * 100;
-            let bgY = (y / height) * 100;
+                let bgX = (x / width) * 100;
+                let bgY = (y / height) * 100;
 
-            magnifier.style.left = `${x - 50}px`;
-            magnifier.style.top = `${y - 50}px`;
-            magnifier.style.backgroundImage = `url(${mainImage.src})`;
-            magnifier.style.backgroundPosition = `${bgX}% ${bgY}%`;
-            magnifier.style.display = "block";
-        });
+                magnifier.style.left = `${x - 50}px`;
+                magnifier.style.top = `${y - 50}px`;
+                magnifier.style.backgroundImage = `url(${mainImage.src})`;
+                magnifier.style.backgroundPosition = `${bgX}% ${bgY}%`;
+                magnifier.style.display = "block";
+            });
 
-        mainImage.addEventListener("mouseleave", function () {
-            magnifier.style.display = "none";
-        });
-    </script>
+            mainImage.addEventListener("mouseleave", function () {
+                magnifier.style.display = "none";
+            });
+        }
+    });
+</script>
+
 @endsection
