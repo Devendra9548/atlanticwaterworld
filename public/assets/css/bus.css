@@ -1,4 +1,10 @@
 @import 'global.css';
+.bus-section {
+  position: relative;
+  z-index: 13;
+  margin-top: -2px;
+  background: #fff;
+}
 .bus-section thead th, .bus-section thead tr {
   background-color: #0A5383;
   color: #fff;
@@ -15,14 +21,26 @@
   padding-left: 30px !important;
 }
 
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
+@media only screen and (max-width: 768px) {
+  table {
+    min-width: 100%;
+  }
+  .table-container {
+    width: 100%;
+    overflow-x: auto;
+  }
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+  }
+  .table-container th, .table-container td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .table-container th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+  }
 }/*# sourceMappingURL=bus.css.map */

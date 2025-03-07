@@ -112,6 +112,7 @@ Group Booking | Atlantic Water World
             into unforgettable experiences.</p>
     </div>
 </section>
+
 <section class="third-section">
     <div class="container">
 

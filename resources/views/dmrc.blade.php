@@ -6,7 +6,6 @@ DMRC | Atlantic Water World
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="stylesheet" href="/assets/css/home.css" />
 <link rel="stylesheet" href="/assets/css/global.css" />
-<link rel="stylesheet" href="/assets/css/isline.css" />
 <link rel="stylesheet" href="/assets/css/bus.css" />
 <style>
         .image-container {
@@ -37,7 +36,7 @@ DMRC | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="DMRC" />
 
-<section class="bus-section p-5">
+<section class="bus-section p-2 pt-5 p-md-5">
    <!-- <div class="container-fluid">
     <img src="/assets/imgs/dmrc-img.jpg" alt="dmrc" width="100%">
    </div> -->

@@ -43,14 +43,43 @@
   border-radius: 5px;
 }
 
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
+@media only screen and (max-width: 768px) {
+  .faq-section {
+    margin-top: -1px;
+    background: #fff;
+    z-index: 122;
+    position: relative;
+  }
+  .faq-section .faq-container .faq-question {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 12px 12px;
+    font-weight: 500;
+    background: rgba(10, 83, 131, 0.0784313725);
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 14px;
+    padding-right: 55px;
+  }
+  .faq-section .faq-container .faq-question span {
+    background: #0A5383;
+    color: #fff;
+    padding: 4px 10px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 26px;
+    width: 50px;
+    text-align: center;
+    height: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .faq-section .faq-container .faq-answer {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=faq.css.map */

@@ -9,7 +9,7 @@ Blogs
 @endsection
 @section('body')
 <x-header/>
-<section class="main-content p-5">
+<section class="main-content p-2 p-md-5">
     <div class="container-fluid">
         <h1>The Mahamudra of Masti: Can You Conquer the Ultimate Desi Water Park Challenge?</h1>
         <p>Summer is upon us, and the scorching sun is begging for a splash of cool fun. What better way to beat the

@@ -13,7 +13,7 @@ Taxi | Atlantic Water World
 <x-herosection hero="1" heroheading="" heropara=""
     heading="Connectivity - by Taxi" />
 
-<section class="taxi-section p-5">
+<section class="taxi-section p-2 pt-5 p-md-5">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-1"></div>

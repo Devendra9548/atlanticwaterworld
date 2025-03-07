@@ -49,7 +49,7 @@ Blogs
 
 
 
-<section class="recent-blog p-5">
+<section class="recent-blog p-2 p-md-5">
     <div class="container">
         <div class="row">
             @foreach($recentBlog as $recentBlog)
@@ -143,7 +143,7 @@ Blogs
     <div class="container-fluid">
         
     <div class="heading-yellow">
-         <h2 class="text-center mb-0 pb-5">Popular Topic</h2>
+         <h2 class="text-center mb-0 pb-2 pb-md-5">Popular Topic</h2>
     </div>
         <div class="card-slider">
             @foreach($blogs as $blog)

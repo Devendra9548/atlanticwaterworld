@@ -20,7 +20,6 @@ $yellow: #F3E10B
     background: $blue
     p,h3
         color: #fff
-    
 
 .taxi-section
     padding-top: 163px !important
@@ -47,12 +46,18 @@ $yellow: #F3E10B
     h3
         margin-bottom: 30px
 
-.isLine
-    height: 700px
-    display: flex
-    align-items: end
-    background-image: url('/assets/imgs/waterbg.png')
-    background-repeat: no-repeat!important
-    background-size: cover
-    img
-        padding-bottom: 0px !important
+@media only screen and (max-width:768px)
+    .right-bottom
+        margin-bottom: 90px
+        margin-top: 90px
+        width: 100%
+    .taxi-section
+        z-index: 13
+        position: relative
+        margin-top: -2px
+        background: #fff
+        padding-top: 23px !important
+        .cards p
+            padding-right: 0px
+    .left-cards
+        width: 100%

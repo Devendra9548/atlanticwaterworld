@@ -72,12 +72,16 @@ $yellow: #F3E10B
                 font-size: 14px
                 line-height: 18px
 
-.isLine
-    height: 700px
-    display: flex
-    align-items: end
-    background-image: url('/assets/imgs/waterbg.png')
-    background-repeat: no-repeat!important
-    background-size: cover
-    img
-        padding-bottom: 0px !important
+@media only screen and (max-width:768px)
+    .blue-second-last-line
+        position: relative
+        z-index: 14
+        margin-top: -15px
+        background: #fff
+        margin-bottom: -2px
+        height: 87px
+    .gallery-section img
+        height: 275px !important
+    .white-overlay
+        position: absolute
+        border: 10px solid transparent!important

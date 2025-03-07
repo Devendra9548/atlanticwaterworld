@@ -3,6 +3,12 @@
   color: rgba(10, 83, 131, 0.631372549);
 }
 
+.content-section {
+  position: relative;
+  z-index: 13;
+  margin-top: -2px;
+  background: #fff;
+}
 .content-section ul {
   padding-left: 15px;
 }
@@ -16,16 +22,4 @@
 .content-section h3 {
   margin-top: 15px;
   margin-bottom: 5px;
-}
-
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
 }/*# sourceMappingURL=policies.css.map */

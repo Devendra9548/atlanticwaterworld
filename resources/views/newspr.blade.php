@@ -14,14 +14,14 @@ News & Pr | Atlantic Water World
 <x-herosection hero="1" heroheading="" heropara=""
     heading="News & Pr" />
 
-<section class="news-section p-5">
+<section class="news-section p-2 p-md-5">
     <div class="container-fluid">
          <div class="row justify-content-center">
             
             <div class="col-12 col-md-5">
                 <img src="/assets/imgs/news/1.png" alt="" width="90%">
                 <a href="https://www.youtube.com/@atlanticwaterworldwaterpar86" class="youtube-icon" target="_blank">
-                <img src="/assets/imgs/news/8.png" alt="" width="19%" >
+                <img src="/assets/imgs/news/8.png" alt="" width="19%" class="yt-img">
                 </a>
             </div>
             <div class="col-12 col-md-2 p-1">

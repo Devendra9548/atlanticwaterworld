@@ -12,7 +12,7 @@ Rules & Regulations | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara=""
     heading="Rules & Regulations - <span>Atlantic Water World (Entity of Khan & Sirohi Electromechanical)</span>" />
-<section class="content-section p-5">
+<section class="content-section p-2 pt-5 p-md-5">
     <div class="container-fluid">
         <p>All content, imagery, and materials of this web site are protected by copyrights, trademarks or other
             proprietary rights and laws. Unauthorized copying, reproduction, republishing, uploading, downloading,

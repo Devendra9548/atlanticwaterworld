@@ -11,7 +11,7 @@ Ticket Booking | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Ticket Booking" />
 
-<section class="form-section p-5">
+<section class="form-section p-2 p-md-5">
     <div class="container-fluid py-5">
         <div class="bg-layer-green">
             <form action="" id="bookNowForm">
@@ -186,7 +186,7 @@ Ticket Booking | Atlantic Water World
 <section class="notes">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-10 bg-blue p-5">
+            <div class="col-12 col-md-10 bg-blue p-4 pt-5 p-md-5">
                 <h3>Please Note:</h3>
                 <ul>
                     <li>Only nylon & lycra swimwear are allowed on ride/slide.</li>

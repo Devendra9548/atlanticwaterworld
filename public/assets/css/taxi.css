@@ -11,6 +11,12 @@
   position: relative;
 }
 
+.taxi-section {
+  position: relative;
+  z-index: 13;
+  margin-top: -2px;
+  background: #fff;
+}
 .taxi-section ul {
   margin-left: 22px;
   padding: 0px;
@@ -20,20 +26,8 @@
   margin-bottom: 5px;
 }
 
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
-}
-
 @media only screen and (max-width: 768px) {
   .subheading {
-    white-space: normal;
+    white-space: normal !important;
   }
 }/*# sourceMappingURL=taxi.css.map */

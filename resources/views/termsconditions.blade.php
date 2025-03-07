@@ -12,7 +12,7 @@ Terms & Conditions | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara=""
     heading="Terms & Conditions - <span>Atlantic Water World (Entity of Khan & Sirohi Electromechanical)</span>" />
-<section class="content-section p-5">
+<section class="content-section p-2 pt-5 p-md-5">
     <div class="container-fluid">
     <ul>
         <li>Ticket once sold or booked, it will not be cancelled or refunded under any circumstances.</li>

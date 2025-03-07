@@ -4,7 +4,7 @@ $yellow: #F3E10B
 
 .attractions-section
     position: relative
-    z-index: 3
+    z-index: 13
     margin-top: -2px !important
     background: #fff
     .cards
@@ -21,19 +21,29 @@ $yellow: #F3E10B
             bottom: 0px
             z-index: 9
             padding: 30px
-            height: 239px
+            height: 259px
             padding-top: 80px
             p,h3
                 color: #000
             p
                 margin-bottom: 0px
 
-.isLine
-    height: 700px
-    display: flex
-    align-items: end
-    background-image: url('/assets/imgs/waterbg.png')
-    background-repeat: no-repeat!important
-    background-size: cover
-    img
-        padding-bottom: 0px !important
+@media only screen and (max-width:768px)
+    .attractions-section
+        .col-6
+            padding: 0px 5px!important
+        .cards .info
+            background-image: url(/assets/imgs/blue-bg.png)
+            background-repeat: no-repeat
+            background-size: cover
+            background-position: top
+            position: absolute
+            bottom: 0px
+            z-index: 9
+            padding: 10px
+            height: 210px
+            padding-top: 55px !important
+            p
+                margin-bottom: 0px
+                font-size: 14px
+                line-height: 16px

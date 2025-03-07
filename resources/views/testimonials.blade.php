@@ -12,7 +12,7 @@ Our Testimonials | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Our Testimonials" />
 
-<section class="taxi-section p-5">
+<section class="taxi-section p-2 p-md-5">
     <div class="container-fluid">
         <div class="row">
 

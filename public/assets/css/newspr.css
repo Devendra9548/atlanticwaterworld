@@ -12,14 +12,13 @@
   background: #fff;
 }
 
-.isLine {
-  height: 700px;
-  display: flex;
-  align-items: end;
-  background-image: url("/assets/imgs/waterbg.png");
-  background-repeat: no-repeat !important;
-  background-size: cover;
-}
-.isLine img {
-  padding-bottom: 0px !important;
+@media only screen and (max-width: 768px) {
+  .news-section img {
+    width: 100%;
+  }
+  .news-section .yt-img {
+    width: 19%;
+    top: 20px;
+    position: relative;
+  }
 }/*# sourceMappingURL=newspr.css.map */

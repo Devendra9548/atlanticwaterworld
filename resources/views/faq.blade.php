@@ -14,7 +14,7 @@ FAQ | Atlantic Water World
 <x-herosection hero="1" heroheading="" heropara=""
     heading="Atlantic Water World <span>Frequently Asked Questions</span>" />
 
-<section class="faq-section p-5">
+<section class="faq-section p-1 p-md-5">
     <div class="container faq-container">
         <div class="faq-item">
             <div class="faq-question">What Are The Rules And Regulations Of The Water Park? <span>+</span></div>

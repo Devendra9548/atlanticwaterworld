@@ -10,7 +10,7 @@ Contact Us | Atlantic Water World
 @section('body')
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Contact Us" />
-<section class="contact-info p-5">
+<section class="contact-info p-2 p-md-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-4" data-aos="fade-left">
@@ -51,7 +51,7 @@ Contact Us | Atlantic Water World
     </div>
 </section>
 
-<section class="p-5 pt-0 map-section">
+<section class="p-0 p-md-5 pt-0 map-section">
     <div class="container-fluid">
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.829021514653!2d77.3067274752857!3d28.544858475712708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce565e8b8ad1b%3A0xa1e2429c132e090e!2sAtlantic%20Water%20World!5e0!3m2!1sen!2sin!4v1740675075594!5m2!1sen!2sin"
@@ -112,7 +112,7 @@ Contact Us | Atlantic Water World
                     </div>
                 </div>
                 <div class="btn-div mt-4 d-flex justify-content-center">
-                    <input class="btn btn-yellow btn-cts" type="Submit" value="Submit" style="width:18%!important">
+                    <input class="btn btn-yellow btn-cts" type="Submit" value="Submit" style="width:18%">
                 </div>
             </form>
         </div>

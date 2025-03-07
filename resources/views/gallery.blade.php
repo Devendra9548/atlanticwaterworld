@@ -6,7 +6,6 @@ Attractions Gallery | Atlantic Water World
 <link rel="stylesheet" href="/assets/css/style.css" />
 <link rel="stylesheet" href="/assets/css/home.css" />
 <link rel="stylesheet" href="/assets/css/global.css" />
-<link rel="stylesheet" href="/assets/css/isline.css" />
 <link rel="stylesheet" href="/assets/css/gallery.css" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.2.0/magnific-popup.css" integrity="sha512-UhvuUthI9VM4N3ZJ5o1lZgj2zNtANzr3zyucuZZDy67BO6Ep5+rJN2PST7kPj+fOI7M/7wVeYaSaaAICmIQ4sQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <style>
@@ -99,7 +98,7 @@ Attractions Gallery | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Water World Attractions" />
 
-<svg width="100%" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
+<svg class="blue-second-last-line" width="100%" height="150" viewBox="0 0 1200 150" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
     <path d="M 0 75 
        Q 300 0, 600 75 
        T 1200 75 
@@ -144,7 +143,7 @@ $ridesimg = [
 
 
 
-<section class="gallery-section p-5">
+<section class="gallery-section p-2 p-md-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-5">
@@ -219,7 +218,7 @@ $galleryimg = [
       ];
 ?>
 
-<section class="mt-5 main-gallery p-5">
+<section class="mt-5 main-gallery p-1 pt-5 p-md-5">
  <!-- gallery section  -->
 <div class="gallery_container mt-5 px-3">
   <div class="popup-gallery">
@@ -314,7 +313,7 @@ $allrides = [
 ?>
 
 
-<section class="more-rides-section p-5">
+<section class="more-rides-section p-2 pt-5 p-md-5">
     <div class="container-fluid">
         <h2 class="text-center">More Rides</h2>
         <div class="more-rides">

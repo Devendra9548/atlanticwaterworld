@@ -3,6 +3,10 @@ $blue: #0A5383
 $yellow: #F3E10B
 
 .bus-section
+    position: relative
+    z-index: 13
+    margin-top: -2px
+    background: #fff
     thead
         th,tr
             background-color: $blue
@@ -18,13 +22,20 @@ $yellow: #F3E10B
         th:nth-child(1)
             padding-left: 30px!important
 
-    
-.isLine
-    height: 700px
-    display: flex
-    align-items: end
-    background-image: url('/assets/imgs/waterbg.png')
-    background-repeat: no-repeat!important
-    background-size: cover
-    img
-        padding-bottom: 0px !important
+@media only screen and (max-width:768px)
+    table
+        min-width: 100%
+    .table-container
+        width: 100%
+        overflow-x: auto
+        table
+            width: 100%
+            border-collapse: collapse
+            min-width: 600px
+        th, td
+            border: 1px solid #ddd
+            padding: 8px
+            text-align: left
+        th
+            background-color: #f4f4f4
+            font-weight: bold

@@ -13,7 +13,7 @@ Rides & Attractions | Atlantic Water World
 <x-header />
 <x-herosection hero="1" heroheading="" heropara="" heading="Water world Attractions" />
 
-<section class="attractions-section p-5">
+<section class="attractions-section p-2 p-md-5">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-6 mb-4" data-aos="fade-right">

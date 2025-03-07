@@ -2,7 +2,6 @@
 $blue: #0A5383
 $yellow: #F3E10B
 
-
 .maincard-section
     .slide
         margin: 10px
@@ -12,7 +11,7 @@ $yellow: #F3E10B
             border-radius: 20px
             &:not(:last-child)
                 margin-bottom: 20px
-            
+
         h3
             color: #222222
             width: 85%
@@ -86,7 +85,7 @@ header
                 display: -webkit-box
                 -webkit-line-clamp: 1
                 -webkit-box-orient: vertical
-                overflow: hidden  
+                overflow: hidden
             p
                 display: -webkit-box
                 -webkit-line-clamp: 3
@@ -113,19 +112,62 @@ header
             opacity: .8
             transition: all .4s ease
 
-.isLine
-    height: 700px
-    display: flex
-    align-items: end
-    background-image: url('/assets/imgs/waterbg.png')
-    background-repeat: no-repeat!important
-    background-size: cover
-    img
-        padding-bottom: 0px !important
-
 @media only screen and (max-width:1300px)
     .maincard-section
         .slide
             h3
                 color: #222222
                 width: 85%
+@media only screen and (max-width:768px)
+    .hero-section .row
+        position: relative
+        height: 80vh
+    .hero-heading
+        margin-top: -132px
+        margin-bottom: 0px
+        img
+            width: 40px !important
+            top: -15px!important
+        .head
+            font-size: 22px !important
+            line-height: 30px
+        .para
+            font-size: 22px !important
+            margin-top: 15px
+            line-height: 36px
+    .recent-blog
+        .img-card
+            height: 220px
+            img
+                height: 220px
+
+    .recent-blog
+        .blog
+            .content
+                padding: 15px
+    .maincard-section
+        .slide
+            h3
+                color: #222222
+                width: 100%!important
+                font-weight: 500
+                font-size: 18px
+                line-height: 24px
+            a
+                font-size: 14px
+    .main-content
+        margin: 5px
+        border-radius: 30px
+        margin-top: 70px
+        padding-bottom: 30px !important
+        h1
+            width: 100%
+            line-height: 36px
+            margin-top: 15px
+            margin-bottom: 15px !important
+        h2
+            color: #F3E10B
+            font-size: 22px
+            line-height: 25px
+            margin-bottom: 15px
+            margin-top: 10px
