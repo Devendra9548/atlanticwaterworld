@@ -165,7 +165,7 @@ Ticket Booking | Atlantic Water World
                                 <input type="hidden" id="finalPriceVal">
                                 <p style="font-size:14px">Inclusive of all taxes.</p>
                                 <input type="submit" value="Place Order" class="btn-orange-2">
-                                <img src="/assets/images/spinner.gif" alt="" width="26px" id="CtSpinner">
+                                <img src="/assets/imgs/spinner.gif" alt="" width="26px" id="CtSpinner">
                                 <p id="messagehere">Thank you for your Booking.</p>
                             </div>
                         </div>

@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\BookingSuccess;
+use App\Mail\FormData;
+use Mail;
 
 class frontController extends Controller
 {
@@ -69,6 +72,47 @@ class frontController extends Controller
     }
     function testimonials(){
         return view('testimonials');
+    }
+    function bookingSuccess(Request $req){
+        $dbs = new BookingSuccess();
+
+        $typeofticket = $req->ticket;
+        $dateofvisit = $req->pickupdate;
+        $noofadults = $req->noofadults;
+        $tpnoofadults = $req->totalPrice_adults_val;
+        $noofchildren = $req->noofchildren;
+        $tpnoofchildren = $req->totalPrice_children_val;
+        $noofcitizens = $req->noofcitizens;
+        $tpnoofcitizens = $req->totalPrice_scitizens_val;
+        $totalvisitors = $req->totalvisitorsVal;
+        $totalprice = $req->totalPriceCalval;
+        
+        $dbs->type_of_ticket = $typeofticket;
+        $dbs->date_of_visit = $dateofvisit;
+        $dbs->no_of_adults = $noofadults;
+        $dbs->tp_noofadults = $tpnoofadults;
+        $dbs->no_of_children = $noofchildren;
+        $dbs->tp_noofchildren = $tpnoofchildren;
+        $dbs->no_of_citizens = $noofcitizens;
+        $dbs->tp_noofcitizens = $tpnoofcitizens;
+        $dbs->total_visitors = $totalvisitors;
+        $dbs->total_price = $totalprice;
+        $dbs->save();
+        $mailData = [
+            'typeofticket' => $typeofticket, 
+            'dateofvisit' => $dateofvisit, 
+            'noofadults' => $noofadults, 
+            'tpnoofadults' => $tpnoofadults,
+            'noofchildren' => $noofchildren,
+            'tpnoofchildren' => $tpnoofchildren,
+            'noofcitizens' => $noofcitizens,
+            'tpnoofcitizens' => $tpnoofcitizens,
+            'totalvisitors' => $totalvisitors,
+            'totalprice' => $totalprice,
+        ];
+          
+        Mail::to('web.thakurdeva@gmail.com')->send(new FormData($mailData));
+        return true;
     }
     
 }
