@@ -105,23 +105,23 @@ footer ul li {
 footer .ct-90 {
   margin-top: 90px;
 }
-footer .foot-4 .sub {
+footer .foot-4 .sub, footer .foot-4-tab .sub {
   font-weight: 600;
   font-size: 20px;
 }
-footer .foot-4 p {
+footer .foot-4 p, footer .foot-4-tab p {
   margin-bottom: 0px;
 }
-footer .foot-4 .social-media img {
+footer .foot-4 .social-media img, footer .foot-4-tab .social-media img {
   width: 26px;
   margin-left: 18px;
   margin-top: 15px;
 }
-footer .foot-4 .social-media i {
+footer .foot-4 .social-media i, footer .foot-4-tab .social-media i {
   font-size: 28px;
   margin-top: 15px;
 }
-footer .foot-4 .social-media .ii {
+footer .foot-4 .social-media .ii, footer .foot-4-tab .social-media .ii {
   margin-left: 18px;
 }
 
@@ -252,6 +252,14 @@ footer .foot-4 .social-media .ii {
   display: none;
 }
 
+footer .foot-4-tab {
+  display: none;
+}
+
+footer .foot-4 {
+  display: block;
+}
+
 @media only screen and (max-width: 1300px) {
   header nav ul li {
     display: inline-block;
@@ -261,7 +269,66 @@ footer .foot-4 .social-media .ii {
     padding-left: 0px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1200px) {
+  .fixheader .container-fluid {
+    padding: 10px 15px !important;
+  }
+  header {
+    background: transparent;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    padding: 10px 15px !important;
+  }
+  header li, header a {
+    color: #fff !important;
+  }
+  header .last-nav a {
+    color: #0A5383 !important;
+  }
+  header .col-md-3, header .col-md-9 {
+    width: 100% !important;
+  }
+  header .first-level, header .top-bar {
+    display: none !important;
+  }
+  header .main-nav {
+    background: transparent;
+  }
+  header nav ul li {
+    display: inline-block;
+    padding-left: 14px;
+  }
+  footer .col-md-3 {
+    width: 33.33% !important;
+  }
+  footer .foot-4-tab {
+    display: block;
+    margin-top: 60px;
+  }
+  footer .foot-4 {
+    display: none;
+  }
+  footer h3 {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  footer h3 {
+    font-size: 26px;
+  }
+  .fixheader .container-fluid {
+    padding: 0px !important;
+  }
+  header {
+    padding: 0 !important;
+  }
+  footer .foot-4-tab {
+    display: none;
+  }
+  footer .foot-4 {
+    display: block;
+  }
   .hero-section .row .btn-div .btn-yellow {
     font-size: 16px;
   }
@@ -322,6 +389,9 @@ footer .foot-4 .social-media .ii {
   }
   #footer .ct-90, #footer h3 {
     margin-top: 30px;
+  }
+  #footer .col-md-3 {
+    width: 100% !important;
   }
   #herologo {
     width: 75% !important;

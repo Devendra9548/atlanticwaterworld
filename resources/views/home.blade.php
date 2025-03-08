@@ -20,21 +20,21 @@ Home | Atlantic Water World
         </div>
         <div class="row">
 
-            <div class="col-12 col-md-6">
+            <div class="col-12 col-md-6" data-aos="fade-right">
                 <div class="heading">
-                    <h2 data-aos="fade-right">Atlantic Water World</h2>
+                    <h2>Atlantic Water World</h2>
                     <!-- <img src="/assets/imgs/heading-line.png" alt=""> -->
                 </div>
 
                 <img src="/assets/imgs/bg.png" alt="" width="20%">
 
-                <p data-aos="fade-right">The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
+                <p>The best water park in Delhi NCR, Atlantic Water World is surround by a water canal and sits on the
                     Yamuna waterfront along the Kalindi Kunj barrage.</p>
-                <p data-aos="fade-right">Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
+                <p>Atlantic Water World is a world class water park in Delhi/NCR, offering people the perfect getaway
                     full of fun, thrill, sheer excitement and real entertainment.</p>
-                <p data-aos="fade-right">With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
+                <p>With 13 world class slides, some of which are exclusively available only at Atlantic Water World,
                     like Aqua Funnel, Tornado - both of them, the first in North India.</p>
-                <p data-aos="fade-right">At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience, with
+                <p>At Atlantic Water World, we are committed to providing you a safe, fun and exciting experience, with
                     our unparalleled safety standards, thrilling rides and offerings that leave you immersed in fun
                     throughout your time with us.</p>
             </div>

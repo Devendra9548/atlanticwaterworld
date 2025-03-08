@@ -46,6 +46,28 @@
                             href="https://www.google.com/maps/dir//Atlantic+Water+World,+Kalindi+Kunj+Park+Adjacent+to+Kalindi+Kunj+Metro+Station,+New+Delhi,+110025,+India/@28.5449866,77.2741186,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce565e8b8ad1b:0xa1e2429c132e090e!2m2!1d77.3091383!2d28.5449157">Navigation</a>
                     </li>
                 </ul>
+                <div class="foot-4-tab">
+                    <h3>Contact</h3>
+                    <p class="sub">Address:</p>
+                    <p>Kalindi kunj park, adjacent to kalandi kunj metro station, new delhi-110025</p>
+                    <p class="sub mt-3">Phone:</p>
+                    <p>General Query +91 9540004091</p>
+                    <p>Group Query +9540004092</p>
+                    <p class="sub mt-3">E-Mail:</p>
+                    <p>info@atlanticwaterworld.com</p>
+                    <div class="social-media d-flex">
+                        <a href="https://www.instagram.com/atlanticwaterworld/" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/AtlanticWaterWorldPark/" target="_blank"><img
+                                src="/assets/imgs/fb.png" alt="" width="100%"></a>
+                        <a href="https://www.youtube.com/channel/UCIyCWpivG-P5YJ7d6qL_IxA" target="_blank" class="ii"><i
+                                class="fa-brands fa-youtube"></i></a>
+                        <a href="https://twitter.com/atlanticworld1" target="_blank"><img src="/assets/imgs/x.png"
+                                alt="" width="100%"></a>
+                        <a href="mailto:info@atlanticaterworld.com" target="_blank"><img src="/assets/imgs/mail.png"
+                                alt="" width="100%"></a>
+                    </div>
+                </div>
             </div>
             <div class="col-12 col-md-3 foot-4">
                 <h3>Contact</h3>

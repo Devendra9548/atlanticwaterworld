@@ -352,8 +352,20 @@ body, html {
     width: 100% !important;
   }
 }
+@media only screen and (max-width: 1200px) {
+  .isLine {
+    height: 345px;
+  }
+  .hero-section .row {
+    opacity: 1;
+    position: relative;
+    height: 65vh;
+    padding-top: 30px !important;
+  }
+}
 @media only screen and (max-width: 768px) {
   .hero-section .row {
+    padding-top: 0px !important;
     position: relative;
     height: 65vh;
   }
