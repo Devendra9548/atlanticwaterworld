@@ -215,4 +215,24 @@ header {
     margin-bottom: 15px;
     margin-top: 10px;
   }
+}
+@media only screen and (min-width: 500px) and (max-width: 1160px) {
+  .hero-heading .head {
+    font-size: 26px !important;
+    line-height: 30px;
+    margin-top: 30px;
+  }
+  .hero-heading .para {
+    font-size: 22px !important;
+    margin-top: 0px;
+    padding-left: 56px;
+  }
+  .maincard-section .slide h3 {
+    color: #222222;
+    width: 85%;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    width: 100%;
+  }
 }/*# sourceMappingURL=blogs.css.map */
