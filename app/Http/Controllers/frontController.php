@@ -4,7 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\BookingSuccess;
+use App\Models\ContactUs;
+use App\Models\GroupBooking;
 use App\Mail\FormData;
+use App\Mail\ContactUsForm;
+use App\Mail\GroupBookingForm;
 use Mail;
 
 class frontController extends Controller
@@ -112,6 +116,78 @@ class frontController extends Controller
         ];
           
         Mail::to('web.thakurdeva@gmail.com')->send(new FormData($mailData));
+        return true;
+    }
+    public function groupBookingSuccess(Request $req){
+        $dbs = new GroupBooking();
+
+        $name = $req->name;
+        $email = $req->email;
+        $city = $req->city;
+        $vsdate = $req->vsdate;
+        $guest = $req->guest;
+        $companyname = $req->companyname;
+        $phone = $req->phone;
+        $message = $req->message;
+        
+        $dbs->name = $name;
+        $dbs->email = $email;
+        $dbs->city = $city;
+        $dbs->vsdate = $vsdate;
+        $dbs->guest = $guest;
+        $dbs->companyname = $companyname;
+        $dbs->phone = $phone;
+        $dbs->message = $message;
+        $dbs->save();
+        $mailData = [
+            'name' => $name, 
+            'email' => $email, 
+            'city' => $city, 
+            'vsdate' => $vsdate,
+            'guest' => $guest,
+            'companyname' => $companyname,
+            'phone' => $phone,
+            'message' => $message,
+        ];
+          
+        Mail::to('web.thakurdeva@gmail.com')->send(new GroupBookingForm($mailData));
+        return true;
+
+    }
+
+    public function contactUsSuccess(Request $req){
+        $dbs = new ContactUs();
+
+        $name = $req->name;
+        $email = $req->email;
+        $city = $req->city;
+        $vsdate = $req->vsdate;
+        $guest = $req->guest;
+        $companyname = $req->companyname;
+        $phone = $req->phone;
+        $message = $req->message;
+        
+        $dbs->name = $name;
+        $dbs->email = $email;
+        $dbs->city = $city;
+        $dbs->vsdate = $vsdate;
+        $dbs->guest = $guest;
+        $dbs->companyname = $companyname;
+        $dbs->phone = $phone;
+        $dbs->message = $message;
+        $dbs->save();
+        $mailData = [
+            'name' => $name, 
+            'email' => $email, 
+            'city' => $city, 
+            'vsdate' => $vsdate,
+            'guest' => $guest,
+            'companyname' => $companyname,
+            'phone' => $phone,
+            'message' => $message,
+        ];
+          
+        Mail::to('web.thakurdeva@gmail.com')->send(new ContactUsForm($mailData));
         return true;
     }
     

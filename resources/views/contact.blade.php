@@ -65,54 +65,59 @@ Contact Us | Atlantic Water World
 
         <div class="rows">
             <h3 class="mb-4">Query Form</h3>
-            <form>
+            <form id="contactus" method="POST">
+                @csrf
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <label for="exampleInputText">Name*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your Full Name">
+                                placeholder="Enter Your Full Name" name="name">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">City*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your City/Place">
+                                placeholder="Enter Your City/Place" name="city">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Guest*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Please Enter No of Guest">
+                                placeholder="Please Enter No of Guest" name="guest">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Phone</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Phone no.">
+                                placeholder="Phone no." name="phone">
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <label for="exampleInputText">E-Mail*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your Email">
+                                placeholder="Enter Your Email" name="email">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Date*</label>
-                            <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Please Enter Vist Date">
+                            <input type="date" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
+                                placeholder="Please Enter Vist Date" name="vsdate">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Company Name*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Institution / Company Name">
+                                placeholder="Enter Institution / Company Name" name="companyname">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Message</label>
-                            <textarea name="" id="" placeholder="Message"></textarea>
+                            <textarea name="message" id="" placeholder="Message"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="btn-div mt-4 d-flex justify-content-center">
                     <input class="btn btn-yellow btn-cts" type="Submit" value="Submit" style="width:18%">
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                    <img src="/assets/imgs/spinner.gif" alt="" width="26px" id="CtSpinner">
+                    <p id="messagehere">Thank you for your Submission.</p>
                 </div>
             </form>
         </div>
@@ -120,4 +125,52 @@ Contact Us | Atlantic Water World
 </section>
 
 <x-footer />
+
+<script>
+$(document).ready(function() {
+    $("#contactus").submit(function(event) {
+        event.preventDefault();
+
+        // Check if all required fields are filled
+        let isValid = true;
+        $("#contactus input, #contactus textarea, #contactus select").each(function() {
+            if ($(this).prop("required") && $(this).val().trim() === "") {
+                isValid = false;
+                $(this).css("border", "2px solid red");
+            } else {
+                $(this).css("border", "");
+            }
+        });
+
+        if (!isValid) {
+            alert("Please fill in all required fields.");
+            return;
+        }
+
+        // Show spinner
+        document.querySelector("#CtSpinner").style.display = "block";
+
+        var formData = new FormData(this);
+        $.ajax({
+            type: "POST",
+            url: "/contactus-success",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(res) {
+                document.querySelector("#CtSpinner").style.display = "none";
+                if (res == true) {
+                    $("#contactus")[0].reset();
+                    document.querySelector("#messagehere").style.display = "block";
+                    setTimeout(function() {
+                        location.reload();
+                    }, 3000);
+                } else {
+                    alert("Error! " + res);
+                }
+            }
+        });
+    });
+});
+</script>
 @endsection

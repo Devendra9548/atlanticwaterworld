@@ -28,6 +28,8 @@ Route::get('dmrc', [frontController::class, 'dmrc'])->name('dmrc');
 Route::get('taxi', [frontController::class, 'taxi'])->name('taxi');
 Route::get('testimonials', [frontController::class, 'testimonials'])->name('testimonials');
 Route::post('booking-success', [frontController::class, 'bookingSuccess']);
+Route::post('groupbooking-success', [frontController::class, 'groupBookingSuccess']);
+Route::post('contactus-success', [frontController::class, 'contactUsSuccess']);
 
 });
 

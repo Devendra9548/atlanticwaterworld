@@ -33,7 +33,7 @@ Group Booking | Atlantic Water World
                     <li>For any more questions related to corporate offers, call us at +91 9540004092.</li>
                 </ul>
                 <div class="btn-div mt-4">
-                    <a href="#" class="btn btn-yellow btn-cts">Book Now</a>
+                    <a href="{{route('ticketbooking')}}" class="btn btn-yellow btn-cts">Book Now</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex align-items-center order-1 order-md-2" data-aos="fade-left">
@@ -63,7 +63,7 @@ Group Booking | Atlantic Water World
                     <li>For any more questions related to corporate offers, call us at +91 9540004092.</li>
                 </ul>
                 <div class="btn-div mt-4">
-                    <a href="#" class="btn btn-yellow btn-cts">Book Now</a>
+                    <a href="{{route('ticketbooking')}}" class="btn btn-yellow btn-cts">Book Now</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex align-items-center order-1 order-md-2" data-aos="fade-left">
@@ -92,7 +92,7 @@ Group Booking | Atlantic Water World
                     <li>For any more questions related to corporate offers, call us at +91 9540004092.</li>
                 </ul>
                 <div class="btn-div mt-4">
-                    <a href="#" class="btn btn-yellow btn-cts">Book Now</a>
+                    <a href="{{route('ticketbooking')}}" class="btn btn-yellow btn-cts">Book Now</a>
                 </div>
             </div>
             <div class="col-12 col-md-6 d-flex align-items-center order-1 order-md-2" data-aos="fade-left">
@@ -104,10 +104,12 @@ Group Booking | Atlantic Water World
 <section class="heading-section pb-2 pb-md-5">
     <div class="container">
         <h2 class="mb-3" data-aos="fade-right">Group Query Form</h2>
-        <p data-aos="fade-right">With its world class rides and safety standards, Atlantic Water World is the perfect destination for group
+        <p data-aos="fade-right">With its world class rides and safety standards, Atlantic Water World is the perfect
+            destination for group
             outings.
         </p>
-        <p class="mb-3" data-aos="fade-right">With state-of-the-art facilities and multiple dining options, it's easy to turn school and
+        <p class="mb-3" data-aos="fade-right">With state-of-the-art facilities and multiple dining options, it's easy to
+            turn school and
             corporate outings
             into unforgettable experiences.</p>
     </div>
@@ -118,58 +120,112 @@ Group Booking | Atlantic Water World
 
         <div class="rows">
             <h3 class="mb-4" data-aos="fade-right">Query Form</h3>
-            <form>
+            <form id="groupBooking" method="POST">
+                @csrf
                 <div class="row">
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <label for="exampleInputText">Name*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your Full Name">
+                                placeholder="Enter Your Full Name" name="name">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">City*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your City/Place">
+                                placeholder="Enter Your City/Place" name="city">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Guest*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Please Enter No of Guest">
+                                placeholder="Please Enter No of Guest" name="guest">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Phone</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Phone no.">
+                                placeholder="Phone no." name="phone">
                         </div>
                     </div>
                     <div class="col-12 col-md-6">
                         <div class="form-group">
                             <label for="exampleInputText">E-Mail*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Your Email">
+                                placeholder="Enter Your Email" name="email">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Date*</label>
-                            <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Please Enter Vist Date">
+                            <input type="date" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
+                                placeholder="Please Enter Vist Date" name="vsdate">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Company Name*</label>
                             <input type="text" class="form-control" id="exampleInputText" aria-describedby="emailHelp"
-                                placeholder="Enter Institution / Company Name">
+                                placeholder="Enter Institution / Company Name" name="companyname">
                         </div>
                         <div class="form-group">
                             <label for="exampleInputText">Message</label>
-                            <textarea name="" id="" placeholder="Message"></textarea>
+                            <textarea name="message" id="" placeholder="Message"></textarea>
                         </div>
                     </div>
                 </div>
                 <div class="btn-div mt-4 d-flex justify-content-center">
                     <input class="btn btn-yellow btn-cts" type="Submit" value="Submit" style="width:18%">
+
+                </div>
+                <div class="d-flex justify-content-center mt-3">
+                <img src="/assets/imgs/spinner.gif" alt="" width="26px" id="CtSpinner">
+                <p id="messagehere">Thank you for your Submission.</p>
                 </div>
             </form>
         </div>
     </div>
 </section>
 <x-footer />
+
+<script>
+$(document).ready(function() {
+    $("#groupBooking").submit(function(event) {
+        event.preventDefault();
+
+        // Check if all required fields are filled
+        let isValid = true;
+        $("#groupBooking input, #groupBooking textarea, #groupBooking select").each(function() {
+            if ($(this).prop("required") && $(this).val().trim() === "") {
+                isValid = false;
+                $(this).css("border", "2px solid red");
+            } else {
+                $(this).css("border", "");
+            }
+        });
+
+        if (!isValid) {
+            alert("Please fill in all required fields.");
+            return;
+        }
+
+        // Show spinner
+        document.querySelector("#CtSpinner").style.display = "block";
+
+        var formData = new FormData(this);
+        $.ajax({
+            type: "POST",
+            url: "/groupbooking-success",
+            data: formData,
+            contentType: false,
+            processData: false,
+            success: function(res) {
+                document.querySelector("#CtSpinner").style.display = "none";
+                if (res == true) {
+                    $("#groupBooking")[0].reset();
+                    document.querySelector("#messagehere").style.display = "block";
+                    setTimeout(function() {
+                        location.reload();
+                    }, 3000);
+                } else {
+                    alert("Error! " + res);
+                }
+            }
+        });
+    });
+});
+</script>
 @endsection
