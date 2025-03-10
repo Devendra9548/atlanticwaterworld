@@ -403,4 +403,13 @@ footer .foot-4 {
   #herologo {
     width: 75% !important;
   }
+}
+@media only screen and (min-width: 500px) and (max-width: 1160px) {
+  .sticky-socialmedia {
+    top: 22%;
+  }
+  h1 {
+    font-size: 35px !important;
+    line-height: 45px !important;
+  }
 }/*# sourceMappingURL=style.css.map */
