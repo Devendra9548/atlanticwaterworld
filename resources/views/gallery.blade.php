@@ -60,6 +60,12 @@ Attractions Gallery | Atlantic Water World
   max-height: 350px;
 }
 
+@media only screen and (max-width: 1200px) {
+  .popup-gallery img {
+    min-height: 200px;
+    max-height: 200px;
+  }
+}
 @media only screen and (max-width: 1000px) {
   .popup-gallery img {
     min-height: 150px;

@@ -270,6 +270,13 @@ footer .foot-4 {
   }
 }
 @media only screen and (max-width: 1200px) {
+  .first-section {
+    padding: 0px 50px;
+  }
+  .first-section, .hero-section-last-svg {
+    position: relative;
+    z-index: 12;
+  }
   .fixheader .container-fluid {
     padding: 10px 15px !important;
   }

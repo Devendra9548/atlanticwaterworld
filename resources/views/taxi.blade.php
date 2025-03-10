@@ -30,7 +30,7 @@ Taxi | Atlantic Water World
                     <li data-aos="fade-right">19 kms (30 mins) from Connaught Place</li>
                 </ul>
             </div>
-            <div class="col-12 col-md-4">
+            <div class="col-12 col-md-4 d-flex align-items-center">
                 <img src="/assets/imgs/taxi.png" alt="taxi" width="100%" data-aos="fade-left">
             </div>
             <div class="col-12 col-md-1"></div>

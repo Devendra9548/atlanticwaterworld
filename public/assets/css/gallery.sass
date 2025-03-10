@@ -72,7 +72,28 @@ $yellow: #F3E10B
                 font-size: 14px
                 line-height: 18px
 
+@media only screen and (max-width:1200px)
+    .more-rides-section .cards img
+        height: 300px !important
+    .more-rides-section .cards .info
+        background-image: url(/assets/imgs/blue-bg.png)
+        background-repeat: no-repeat
+        background-size: cover
+        background-position: top
+        position: absolute
+        bottom: 0px
+        z-index: 9
+        padding: 10px 10px
+        height: 228px
+        padding-top: 51px
+
 @media only screen and (max-width:768px)
+    .gallery-section
+        position: relative
+        z-index: 19
+        margin-top: 1px !important
+    .more-rides-section .cards img
+        height: 400px !important
     .blue-second-last-line
         position: relative
         z-index: 14
