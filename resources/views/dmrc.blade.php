@@ -46,7 +46,7 @@ DMRC | Atlantic Water World
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
-        if (window.innerWidth > 768) { 
+        if (window.innerWidth > 1200) { 
             const mainImage = document.getElementById("mainImage");
             const magnifier = document.getElementById("magnifier");
 
