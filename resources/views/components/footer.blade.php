@@ -43,7 +43,7 @@
                     <li><a href="{{route('bus')}}">Public Bus</a></li>
                     <li><a href="{{route('taxi')}}">Taxi</a></li>
                     <li><a
-                            href="https://www.google.com/maps/dir//Atlantic+Water+World,+Kalindi+Kunj+Park+Adjacent+to+Kalindi+Kunj+Metro+Station,+New+Delhi,+110025,+India/@28.5449866,77.2741186,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce565e8b8ad1b:0xa1e2429c132e090e!2m2!1d77.3091383!2d28.5449157">Navigation</a>
+                            href="https://www.google.com/maps/dir//Atlantic+Water+World,+Kalindi+Kunj+Park+Adjacent+to+Kalindi+Kunj+Metro+Station,+New+Delhi,+110025,+India/@28.5449866,77.2741186,13z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x390ce565e8b8ad1b:0xa1e2429c132e090e!2m2!1d77.3091383!2d28.5449157" target="_blank">Navigation</a>
                     </li>
                 </ul>
                 <div class="foot-4-tab">

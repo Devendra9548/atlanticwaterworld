@@ -125,6 +125,7 @@
     margin-bottom: 0px;
     font-size: 13px !important;
     color: #000;
+    line-height: 20px;
   }
   .flip-card-back h3 {
     color: #333333;
@@ -137,5 +138,10 @@
     font-size: 24px;
     color: #020348;
     margin-bottom: 20px;
+  }
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 222px;
   }
 }/*# sourceMappingURL=offer.css.map */
