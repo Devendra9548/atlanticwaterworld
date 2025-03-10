@@ -63,7 +63,7 @@
 }
 @media only screen and (max-width: 900px) {
   .post-event-section .row img {
-    height: 194px;
+    height: 356px;
   }
   .events-section .slick-slide img {
     height: 210px !important;
@@ -114,5 +114,10 @@
   }
   .isLine img {
     padding-bottom: 0px !important;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 760px) {
+  .post-event-section .row img {
+    height: 506px;
   }
 }/*# sourceMappingURL=events.css.map */
